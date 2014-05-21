@@ -4,7 +4,7 @@ description: ""
 author: "Adrien Humilière"
 
 url: "http://adhumi.github.io/adhumi.fr"
-baseurl: ""
+baseurl: "http://adhumi.github.io/adhumi.fr"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
