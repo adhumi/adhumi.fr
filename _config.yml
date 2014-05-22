@@ -3,8 +3,8 @@ description: "Adrien Humilière, iOS/Mac Developer"
 
 author: "Adrien Humilière"
 
-url: "http://adhumi.github.io/adhumi.fr"
-baseurl: "http://adhumi.github.io/adhumi.fr"
+url: "http://adhumi.fr"
+baseurl: "http://adhumi.fr"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
@@ -12,5 +12,5 @@ pygments: true
 highlighter: pygments
 
 # Google Analytics
-ga_domain: m3xm.github.io
-ga_tracking_id: UA-47727049-1
+ga_domain: adhumi.fr
+ga_tracking_id: UA-23318416-1
