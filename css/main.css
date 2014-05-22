@@ -182,7 +182,7 @@ header .h-wrap .close .lines::after {
   max-height: 0;
   overflow: hidden;
   padding: 0px 40px;
-  background: #fafafa;
+  background: #444; /*#fafafa;*/
   border-bottom: 0px solid #f1f1f1;
   -webkit-transition: max-height .35s ease, 
                       padding-top .35s ease, 
@@ -210,13 +210,14 @@ header .h-wrap .close .lines::after {
 
 #off-canvas #bio {
   width: 70%;
-  max-width: 720px;
+  max-width: 1024px;
   display: block;
 }
 
 #off-canvas #bio h1 {
   font-size: 140%;
   margin-top: 0;
+  color: #fff;
 }
 
 #off-canvas #bio p {
@@ -224,6 +225,15 @@ header .h-wrap .close .lines::after {
   line-height: 160%;
   font-size: 100%;
   margin-bottom: 0;
+  color: #ccc;
+}
+
+#off-canvas #bio p a {
+  color: #349aff;
+}
+
+#off-canvas #bio p a:hover {
+  color: #bbb;
 }
 
 #off-canvas #avatar {
