@@ -1,6 +1,5 @@
 ---
-layout: default
+layout: cv
 title:  "CV"
 ---
 
-CV
