@@ -1,16 +1,24 @@
-name: "adhumi"
-description: "Adrien Humilière, iOS/Mac Developer"
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-author: "Adrien Humilière"
+# Permalinks
+permalink:        pretty
 
-url: "http://adhumi.fr"
-baseurl: "http://adhumi.fr"
+# Setup
+title:            Adrien Humilière
+tagline:          'iOS/Mac developer'
+description:      'If you want to know more about me, please check my <a href="/cv">CV</a>.<br />You can also have a look at my <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+url:              http://www.adhumi.fr
+baseurl:          '/'
+paginate:         5
 
-markdown: rdiscount
-permalink: :year/:month/:title.html
-pygments: true
-highlighter: pygments
+author:
+  name:           'Adrien Humilière'
+  url:            https://twitter.com/adhumi
 
-# Google Analytics
-ga_domain: adhumi.fr
-ga_tracking_id: UA-23318416-1
+# Custom vars
+# version:          1.0.0
+
+github:
+  repo:           https://github.com/adhumi/adhumi.fr
