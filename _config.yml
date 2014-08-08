@@ -22,3 +22,5 @@ author:
 
 github:
   repo:           https://github.com/adhumi/adhumi.fr
+
+exclude:          [vendor]
