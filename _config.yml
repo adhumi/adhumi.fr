@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Adrien Humilière
 tagline:          'iOS/Mac developer'
-description:      'If you want to know more about me, please check my <a href="/cv">CV</a>.<br />You can also have a look at my <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+description:      'If you want to know more about me, please check my <a href="/resume">resume</a>.<br />You can also have a look at my <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
 url:              http://www.adhumi.fr
 baseurl:          '/'
 paginate:         5
