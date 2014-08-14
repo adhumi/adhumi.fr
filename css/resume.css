@@ -115,6 +115,7 @@ ul.keySkills li.skill {
 	font-size: 0.8em;
 	font-family: "Menlo Regular", Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 }
+
 ul.keySkills li:before {
 	content: '';
 }
@@ -177,6 +178,7 @@ ul.keySkills li:before {
 			font-size: 13px;
 		}
 
+		/* Hide some items for print */
 		.masthead, .sidebar-toggle {
 			display: none;
 		}
