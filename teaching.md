@@ -1,5 +1,5 @@
 ---
 layout: teaching
-title: Enseignement
+title: Teaching
 menu: true
 ---
