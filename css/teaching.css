@@ -1,0 +1,41 @@
+.clear {clear: both;}
+
+.intervention-detail {
+  color: #9a9a9a;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.cursus {
+  display: inline-block;
+  float: left;
+}
+
+.schoolyear {
+  display: inline-block;
+  float: right;
+}
+
+.section {
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.section .octicon {
+  margin: 0 10px 5px 0;
+  vertical-align:middle;
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 0.9em;
+  color: #9a9a9a;
+	text-transform: uppercase;
+}
+
+.section ul {
+  font-size: 0.8em;
+  padding: 0 0 0 30px;
+  margin: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
