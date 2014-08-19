@@ -1,5 +1,5 @@
 ---
 layout: teaching
 title: Teaching
-menu: true
+menu: false
 ---
