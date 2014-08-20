@@ -149,7 +149,7 @@ ul.keySkills li:before {
 	}
 
 	.sectionTitle {
-		margin-left: -2px;
+		margin-left: 0px;
 		font-size: 1.25em;
 	}
 }
