@@ -1,7 +1,7 @@
 language: ruby
-# rvm:
-# - 2.1
-script: jekyll build --safe && htmlproof ./_site
+rvm:
+- 2.1
+script: jekyll build && htmlproof ./_site
 
 branches:
   only:
