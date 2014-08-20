@@ -4,7 +4,7 @@ title:  "Objective-C coding styles"
 date:   2014-05-22 16:57:51
 ---
 
-Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconv-138413.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
+Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
 
 However, there are guidelines that reference best practices, including about formatting that is missing in Apple's official documentation. In this post, I will highlight topics that sounds particularly pertinents to me. It can be considered as *my* guidelines for Objective-C code formatting and will be formalized soon in a Github repository.
 
@@ -48,13 +48,13 @@ Variables have to be named as descriptively as possible and single letter names 
 
 The asterisk indicating pointers is sticker with the variable name, with a space before : `NSString *aString`.
 
-Property instances should be used instead of simple instances variables. Direct instance variables access may be reserved to initializer, dealloc and setter/getter methods. 
+Property instances should be used instead of simple instances variables. Direct instance variables access may be reserved to initializer, dealloc and setter/getter methods.
 
 Apple naming guidelines should be followed at all time.
 
 ### Comments
 
-When needed, comments have to be used to explain why a piece of code does something. Most of the comments could be avoided by great code formatting and variable/methods naming. 
+When needed, comments have to be used to explain why a piece of code does something. Most of the comments could be avoided by great code formatting and variable/methods naming.
 
 ### `init` and `dealloc`
 The `dealloc` method should be placed at the top of the implementation, with `init` just behind. `init` methods should be formatted as follows :
@@ -99,7 +99,7 @@ typedef NS_ENUM(NSInteger, NYTAdRequestState) {
 {% endhighlight %}
 
 ### Private properties
-Private properties should be declared in the implementation file using a class extension. Man should avoid named categories, unless when extending external classes. 
+Private properties should be declared in the implementation file using a class extension. Man should avoid named categories, unless when extending external classes.
 
 {% highlight objc %}
 @interface NYTAdvertisement ()
@@ -117,7 +117,7 @@ Images should be named as a Camel Cased string in very descriptive way. It's nam
 Images can be grouped in folders when they are used for similar purposes.
 
 ### Singletons
-Singleton objects should use a thread safe implementation for creating or getting their shared instances. 
+Singleton objects should use a thread safe implementation for creating or getting their shared instances.
 
 {% highlight objc %}
 + (instancetype)sharedInstance {
@@ -160,7 +160,7 @@ Blah *a = (stuff == thing ? foo : bar);
 Blah *b = thingThatCouldBeNil ?: defaultValue;
 {% endhighlight %}
 
-Separate binary operands with a single space, but unary operands with none. 
+Separate binary operands with a single space, but unary operands with none.
 
 {% highlight objc %}
 void *ptr = &value + 10 * 3;
@@ -185,21 +185,21 @@ if (something == nil) {
 ### Error handling and exceptions
 You should use exceptions only to preserve from programmer error, for example to force the override of a method (abstract).
 
-`NSError` should be passed as reference in methods that need to indicate errors. 
+`NSError` should be passed as reference in methods that need to indicate errors.
 
 ---
 
 ## [Google Objective-C style guide](https://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
 
-Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). In this guide too, I picked some interesting things. 
+Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). In this guide too, I picked some interesting things.
 
 ### Line length
 The maximum line length for Objective-C should be 100 colums. You may set Xcode to display a visual limit in text editor. *Please note that it is corresponding to the size of a text window with inspectors displayed on both side and the splitter view in the center. *
 
 ### Classes
-You should always keep your class simple.  Don't make it a "fourre-tout" by extending the class and it's area. Methods that don't need to be public may not. Better use private categories to prevent cluttering the public header. 
+You should always keep your class simple.  Don't make it a "fourre-tout" by extending the class and it's area. Methods that don't need to be public may not. Better use private categories to prevent cluttering the public header.
 
-Root headers should be imported before individual files. Also keep in mind to `#import` Objective-C headers and `#include` C headers. 
+Root headers should be imported before individual files. Also keep in mind to `#import` Objective-C headers and `#include` C headers.
 
 ### Memory management
 When creating new temporary objects, use `autorelease` on the same line as the declaration rather than a separate `release` a few lines later in the same method.

@@ -24,7 +24,7 @@ Bref, on tire un plutôt bon bilan de ce lancement, même si il faudrait relance
 
 Pas mal de choses ont déjà été dite pendant le lancement officiel des applications dans l’<a href="http://www.captainweb.net/2012/07/29/le-concert-des-singes-cultivateurs-de-canabis/" rel="external">ADC #124</a>, mais revenons-y un peu. Pour Michel comme pour moi, le dev pour mobile était quelque chose de nouveau. On a donc pas mal tâtonné avant d’arriver au résultat final.
 
-Depuis sa création en octobre 2011, Freepod souhaitait se doter d’applications mobiles pour faciliter la consommation des podcasts en mobilité. Le pas a été franchi ce printemps dans le cadre d’un projet universitaire : <a href="http://www.michelknoertzer.fr/" rel="external">Michel</a> a développé l’application Windows Phone 7, j’ai développé le web-service et l’application iPhone.
+Depuis sa création en octobre 2011, Freepod souhaitait se doter d’applications mobiles pour faciliter la consommation des podcasts en mobilité. Le pas a été franchi ce printemps dans le cadre d’un projet universitaire : Michel a développé l’application Windows Phone 7, j’ai développé le web-service et l’application iPhone.
 
 Le web-service est la clé de voute de tout ça. Il est associé à une petite interface d’administration qui permet d’ajouter simplement de nouveaux podcasts, de modifier quelques paramètres et d’afficher des statistiques d’utilisation (à terme, il devrait permettre aussi d’autres choses, en lien avec les nouvelles fonctionnalités proposées dans les applis).
 Il traite donc les flux RSS des podcasts (avec toutes leurs incohérences), insère ça dans une jolie base de données MySQL et propose à qui veut de récupérer une liste de podcasts ou d’épisodes au format JSON.
