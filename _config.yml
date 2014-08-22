@@ -12,6 +12,7 @@ description:      'If you want to know more about me, please check my <a href="/
 url:              http://www.adhumi.fr
 baseurl:          '/'
 paginate:         5
+credits:          Built with Jekyll and <3
 
 author:
   name:           'Adrien Humilière'
