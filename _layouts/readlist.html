@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for review in site.data.reviews %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ review.url }}">
+        {{ review.title }}
+      </a>
+    </h1>
+
+    {% if review.domain %}<span class="post-date">{{ review.domain }}</span>{% endif %}
+
+    {{ review.description }}
+  </div>
+  {% endfor %}
+</div>

@@ -23,7 +23,7 @@ github:
   repo:           https://github.com/adhumi/adhumi.fr
 
 # Exclude
-exclude:          [vendor, teaching.md]
+exclude:          [vendor] #, teaching.md]
 
 # SEO
 seo-description:  'I am an iOS and Mac developer from Paris, France. This is my personnal page.'

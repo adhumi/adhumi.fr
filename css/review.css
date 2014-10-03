@@ -1,0 +1,35 @@
+.review {
+  font-size: 0.8em;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 40px;
+}
+
+.review h2 {
+  font-size: 1.6em;
+}
+
+.review h2 small {
+  font-size: 0.7em;
+  padding-left: 20px;
+}
+
+.review h2 small a {
+  color: #CCC;
+}
+
+.review h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 1.3em;
+}
+
+.review p {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.review .domain {
+  color: #CCC;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}

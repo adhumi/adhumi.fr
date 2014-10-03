@@ -15,7 +15,7 @@ En additionnant les scores de l’App Store et du Marketplace, on arrive à un s
 
 Pas mal de flyers ont été distribués pendant Comic Con pour faire la promo des applications. Il en reste encore quelques centaines/milliers à distribuer (si vous en voulez pour aider à la com, n’hésitez pas à demander !).
 
-Merci également à tous pour vos retours et votre soutien. Les commentaires sur l’App Store et le Marketplace font souvent chaud au coeur, même si on sent bien qu’on vous a forcé la main. Pas non plus le temps de répondre à tous les mails qui nous parviennent via le formulaire sur <a href="http://apps.freepod.net/" rel="external">apps.freepod.net</a>.
+Merci également à tous pour vos retours et votre soutien. Les commentaires sur l’App Store et le Marketplace font souvent chaud au coeur, même si on sent bien qu’on vous a forcé la main. Pas non plus le temps de répondre à tous les mails qui nous parviennent via le formulaire sur apps.freepod.net.
 
 Bref, on tire un plutôt bon bilan de ce lancement, même si il faudrait relancer un peu la communication pour que tout le monde soit au courant !
 
