@@ -1,6 +1,32 @@
+- title: "Xcode 6.1 GM seed 2 Release Notes"
+  url: "http://adcdownload.apple.com//Developer_Tools/xcode_6.1_gm_seed_2_ofnue4/xcode_6.1_gm_seed_2_release_notes.pdf"
+  domain: "apple.com"
+
+- title: "An interview with Brad Cox"
+  description: "Brad Cox is the creator of Objective-C"
+  url: "http://www.mactech.com/articles/mactech/Vol.25/25.07/2507RoadtoCode-BradCoxInterview/index.html"
+  domain: "bignerdranch.com"
+
+- title: "Which function does Swift call?"
+  description: "In three parts."
+  url: "http://airspeedvelocity.net/2014/09/20/which-func/"
+  domain: "airspeedvelocity.net"
+
+- title: "iOS Security Guide"
+  url: "https://www.apple.com/privacy/docs/iOS_Security_Guide_Oct_2014.pdf"
+  domain: "apple.com"
+
+- title: "Interactive Notifications with Notification Actions"
+  url: "http://www.thinkandbuild.it/interactive-notifications-with-notification-actions/"
+  domain: "thinkandbuild.it"
+
 - title: "What iOS 8 Means for App Design"
   url: "http://www.bignerdranch.com/blog/what-ios-8-means-for-app-design/"
   domain: "bignerdranch.com"
+
+- title: "GitHub Swift Style Guide"
+  url: "https://github.com/github/swift-style-guide"
+  domain: "github.com"
 
 - title: "iOS 8 Layout Margins"
   url: "http://www.shinobicontrols.com/blog/posts/2014/10/02/ios8-day-by-day-day-32-layout-margins"
