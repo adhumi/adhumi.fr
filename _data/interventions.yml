@@ -3,25 +3,21 @@
   school: UPMC
   name: Nouvelles technologies du web (LI385)
   githubProjectURL: https://github.com/adhumi/Cours-iOS-DANT
-  abstract: "Introduction à la programmation sur mobile sur iOS avec Swift, dans le cadre d'une UE proposant une partie orientée serveur (développement web, construction d'une API...) et une partie orientée client."
+  abstract: "Introduction à la programmation iOS avec Objective-C."
 
   sections:
     - name: Cours
       octicon: octicon-podium
       content:
-        - name: Introduction à Swift
-          link:
-        - name: Cocoa touch
+        - name: Introduction à Objective-C (bientôt)
           link:
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
-        - name: Playground
-          link:
-        - name: Première application
-          link:
+        - name: TP 1 - Découverte d'Objective-C et d'Xcode
+          link: https://github.com/adhumi/Cours-iOS-DANT/blob/master/TP/TP1.pdf?raw=true
     - name: Projet
       octicon: octicon-repo
       content:
-        - name: Application client/serveur
-          link:
+        # - name: Application client/serveur
+        #   link:
