@@ -9,13 +9,15 @@
     - name: Cours
       octicon: octicon-podium
       content:
-        - name: Introduction à Objective-C (bientôt)
-          link:
+        - name: Introduction à Objective-C
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours1.pdf
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
         - name: TP 1 - Découverte d'Objective-C et d'Xcode
-          link: https://github.com/adhumi/Cours-iOS-DANT/blob/master/TP/TP1.pdf?raw=true
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1.pdf
+        - name: TP 1 - Correction
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1-Correction.zip
     - name: Projet
       octicon: octicon-repo
       content:
