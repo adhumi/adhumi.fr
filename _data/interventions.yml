@@ -11,6 +11,8 @@
       content:
         - name: Introduction à Objective-C
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours1.pdf
+        - name: Architecture & Networking
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours2.pdf
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
@@ -18,6 +20,8 @@
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1.pdf
         - name: TP 1 - Correction
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1-Correction.zip
+        - name: TP 2 - Architecture & Networking
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP2.pdf
     - name: Projet
       octicon: octicon-repo
       content:
