@@ -23,8 +23,8 @@ github:
   repo:           https://github.com/adhumi/adhumi.fr
 
 # Exclude
-exclude:          [vendor, readlist.md] #, teaching.md
+exclude:          [vendor, readlist.md]
 
 # SEO
 seo-description:  'I am an iOS and Mac developer from Paris, France. This is my personnal page.'
-seo-keywords:     'developer, objective-c, swift, apple'
+seo-keywords:     'developer, objective-c, swift, apple, edjing'
