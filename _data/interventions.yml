@@ -13,6 +13,8 @@
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours1.pdf
         - name: 2. Architecture & Networking
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours2.pdf
+        - name: 3. Intefaces personalisées
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours3.pdf
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
@@ -22,6 +24,10 @@
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1-Correction.zip
         - name: TP 2 - Architecture & Networking
           link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP2.pdf
+        - name: TP 3 - Interfaces personnalisées
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP3.pdf
+        - name: TP 3 - Projet de base
+          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP3 outils.zip
     # - name: Projet
       # octicon: octicon-repo
       # content:
