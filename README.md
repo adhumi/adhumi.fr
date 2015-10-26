@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/adhumi/adhumi.fr.svg?branch=gh-pages)](https://travis-ci.org/adhumi/adhumi.fr)
 
-Repository for my personal blog/website.
+Repository for my personal website, built with Jekyll, hosted on Github Pages. Uses the theme [Lanyon](https://github.com/poole/lanyon) by Jekyll Poole.
