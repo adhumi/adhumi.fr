@@ -1,4 +1,30 @@
 - cursus: L3 DANT
+  year: 2015-2016
+  school: UPMC
+  name: Nouvelles technologies du web (LI385)
+  githubProjectURL: https://github.com/adhumi/Cours-iOS-DANT
+  abstract: "Introduction à la programmation iOS avec Swift."
+
+  sections:
+    - name: Cours
+      octicon: octicon-podium
+      content:
+        - name: 1. Cours 1 
+          link: https://github.com/adhumi/Cours-iOS-DANT/
+    - name: Travaux Pratiques
+      octicon: octicon-microscope
+      content:
+        - name: TP 1
+          link: https://github.com/adhumi/Cours-iOS-DANT/
+        - name: TP 1 - Correction
+    - name: Projet
+      octicon: octicon-repo
+      content:
+        - name: Application client/serveur
+          link: https://github.com/adhumi/Cours-iOS-DANT/
+
+
+- cursus: L3 DANT
   year: 2014-2015
   school: UPMC
   name: Nouvelles technologies du web (LI385)
