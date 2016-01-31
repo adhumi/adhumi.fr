@@ -2,33 +2,34 @@
   year: 2015-2016
   school: UPMC
   name: Nouvelles technologies du web (LI385)
-  githubProjectURL: https://github.com/adhumi/Cours-iOS-DANT
+  githubProjectURL: https://github.com/adhumi/UPMC-LI385
   abstract: "Introduction à la programmation iOS avec Swift."
 
   sections:
     - name: Cours
       octicon: octicon-podium
       content:
-        - name: 1. Cours 1 
-          link: https://github.com/adhumi/Cours-iOS-DANT/
+        - name: 0. Introduction
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours0.pdf
+        - name: 1. Dev stack
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours1.pdf
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
         - name: TP 1
-          link: https://github.com/adhumi/Cours-iOS-DANT/
-        - name: TP 1 - Correction
+          link: https://github.com/adhumi/UPMC-LI385/
     - name: Projet
       octicon: octicon-repo
       content:
-        - name: Application client/serveur
-          link: https://github.com/adhumi/Cours-iOS-DANT/
+        - name: Cahier des charges
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Projet/CahierDesCharges.pdf
 
 
 - cursus: L3 DANT
   year: 2014-2015
   school: UPMC
   name: Nouvelles technologies du web (LI385)
-  githubProjectURL: https://github.com/adhumi/Cours-iOS-DANT
+  githubProjectURL: https://github.com/adhumi/UPMC-LI385
   abstract: "Introduction à la programmation iOS avec Objective-C."
 
   sections:
@@ -36,24 +37,24 @@
       octicon: octicon-podium
       content:
         - name: 1. Introduction à Objective-C
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours1.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours1.pdf
         - name: 2. Architecture & Networking
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours2.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours2.pdf
         - name: 3. Interfaces personalisées
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/Cours/Cours3.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours3.pdf
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
         - name: TP 1 - Découverte d'Objective-C et d'Xcode
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1.pdf
         - name: TP 1 - Correction
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP1-Correction.zip
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1-Correction.zip
         - name: TP 2 - Architecture & Networking
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP2.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP2.pdf
         - name: TP 3 - Interfaces personnalisées
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP3.pdf
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3.pdf
         - name: TP 3 - Projet de base
-          link: https://github.com/adhumi/Cours-iOS-DANT/raw/master/2014-2015/TP/TP3 outils.zip
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3 outils.zip
     # - name: Projet
       # octicon: octicon-repo
       # content:
