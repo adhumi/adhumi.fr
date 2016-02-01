@@ -28,3 +28,6 @@ exclude:          [vendor, readlist.md]
 # SEO
 seo-description:  'I am an iOS and Mac developer from Paris, France. This is my personnal page.'
 seo-keywords:     'developer, objective-c, swift, apple, edjing'
+
+# Pagination
+gems:             [jekyll-paginate]

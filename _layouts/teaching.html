@@ -21,6 +21,10 @@ layout: default
 
     <p>{{ intervention.abstract }}</p>
 
+    {% if intervention.licence %}
+    <p class="licence">{{ intervention.licence }}</p>
+    {% endif %}
+
     {% if intervention.sections %}
     <div class="grid">
       {% for section in intervention.sections %}
