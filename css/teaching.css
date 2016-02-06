@@ -26,18 +26,22 @@
   vertical-align:middle;
 }
 
-.section h2 {
+.section h2, .external_resources h2 {
   margin: 0;
   font-size: 0.9em;
   color: #9a9a9a;
 	text-transform: uppercase;
 }
 
-.section ul {
+.section ul, .external_resources ul {
   font-size: 0.8em;
   padding: 0 0 0 30px;
   margin: 0;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.external_resources {
+  margin-top: 20px;
 }
 
 p.licence {

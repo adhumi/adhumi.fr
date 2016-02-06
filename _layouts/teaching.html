@@ -43,7 +43,16 @@ layout: default
     </div>
     {% endif %}
 
-
+    {% if intervention.external_resources %}
+    <div class="external_resources">
+      <h2>Ressources externes</h2>
+      <ul>
+        {% for external_resource in intervention.external_resources %}
+          <li>{% if external_resource.octicon %}<span class="octicon {{ external_resource.octicon }}"></span>  {% endif %}{% if external_resource.url %}<a href="{{ external_resource.url }}">{% endif %}{{ external_resource.title }}{% if external_resource.url %}</a>{% endif %}{% if external_resource.note %} <em>({{ external_resource.note }})</em>{% endif %}</li>
+        {% endfor %}
+      </div>
+    </ul>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

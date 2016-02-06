@@ -6,6 +6,12 @@
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
 
+  external_resources:
+    - title: Xcode 6.4 / Swift 1.2
+      url: http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_6.4/Xcode_6.4.dmg
+      note: Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet. Requiert un compte Apple Developer gratuit.
+      octicon: octicon-desktop-download
+
   sections:
     - name: Cours
       octicon: octicon-podium
