@@ -9,7 +9,7 @@
   external_resources:
     - title: Xcode 6.4 / Swift 1.2
       url: http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_6.4/Xcode_6.4.dmg
-      note: Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet sur vos machines perso. Requiert un compte Apple Developer gratuit.
+      note: Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet sur vos machines perso. Le téléchargement requiert un compte Apple Developer gratuit.
       octicon: octicon-desktop-download
 
   sections:
@@ -29,8 +29,10 @@
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf
         - name: TP 1 - Ressources
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/WordCollage.zip
-        - name: TP 2 - Swift
+        - name: TP 2 - Swift, Clean code
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/TP2.pdf
         - name: TP 2 - Ressources
+          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/SpaceAdventure.zip
     - name: Projet
       octicon: octicon-gist
       content:
