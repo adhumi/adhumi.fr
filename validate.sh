@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "Intialization"
+echo "### Intialization"
 gem install jekyll
 gem install jekyll-paginate
 gem install html-proofer
 
-echo "Building site"
+echo "### Building site"
 jekyll build --safe
 
-echo "Validating site"
+echo "### Validating site"
 htmlproof ./_site
