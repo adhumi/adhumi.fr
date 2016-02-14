@@ -2,7 +2,7 @@ sudo: false
 language: ruby
 rvm:
 - 2.1
-script: gem install jekyll && jekyll build #&& gem install html-proofer && htmlproof ./_site
+script: gem install jekyll && gem install jekyll-paginate && jekyll build --safe #&& gem install html-proofer && htmlproof ./_site
 
 branches:
   only:

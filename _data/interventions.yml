@@ -11,6 +11,9 @@
       url: http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_6.4/Xcode_6.4.dmg
       note: Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet sur vos machines perso. Le téléchargement requiert un compte Apple Developer gratuit.
       octicon: octicon-desktop-download
+    - title: Raccourcis clavier d'Xcode
+      url: http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf
+      octicon: octicon-file-pdf
 
   sections:
     - name: Cours
@@ -22,17 +25,20 @@
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours1.pdf
         - name: 2. Swift
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours2.pdf
+        - name: 3. MVC, Protocols, Persistence
     - name: Travaux Pratiques
       octicon: octicon-microscope
       content:
-        - name: TP 1 - Découverte d'Xcode
+        - name: TP 1 - WordCollage
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf
         - name: TP 1 - Ressources
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/WordCollage.zip
-        - name: TP 2 - Swift, Clean code
+        - name: TP 2 - SpaceAdventure
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/TP2.pdf
         - name: TP 2 - Ressources
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/SpaceAdventure.zip
+        - name: TP 3 - UnitConverter
+        - name: TP 3 - Ressources
     - name: Projet
       octicon: octicon-gist
       content:
@@ -70,8 +76,3 @@
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3.pdf
         - name: TP 3 - Projet de base
           link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3 outils.zip
-    # - name: Projet
-      # octicon: octicon-repo
-      # content:
-        # - name: Application client/serveur
-        #   link:
