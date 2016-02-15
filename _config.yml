@@ -8,11 +8,11 @@ permalink:        pretty
 # Setup
 title:            Adrien Humilière
 tagline:          'iOS/Mac developer'
-description:      'If you want to know more about me, please check my <a href="/resume">resume</a>.<br />You can also have a look at my <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+description:      'Hi! I am an iOS developer from Paris, France. I craft code at <a href="http://www.captaintrain.com">Captain Train</a> and teach iOS development to students at UPMC.<br/>If you want to know more about me, please look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
 url:              http://adhumi.fr
 baseurl:          '/'
 paginate:         5
-credits:          Built with Jekyll and <3
+credits:          Handmade with Jekyll and <3
 
 author:
   name:           'Adrien Humilière'
