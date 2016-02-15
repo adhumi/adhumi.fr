@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}css/presentations.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/octicons/octicons.css">
+
+<h1 class="main">Presentations</h1>
+
+<div class="grid">
+  {% for presentation in site.data.presentations %}
+  <div class="col-1-2">
+    <div class="section">
+      <a href="{{ presentation.url }}"><img src="{{ presentation.thumbnail }}" alt="{{ presentation.title }}" /></a>
+      <h3><a href="{{ presentation.url }}">{{ presentation.title }}</a></h3>
+      <p><a href="{{ presentation.context_url }}">{{ presentation.context }}</a>, {{ presentation.date | date_to_string }}</p>
+      <hr/>
+     </div>
+  </div>
+  {% endfor %}
+</div>
