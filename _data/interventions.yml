@@ -1,78 +1,78 @@
-- cursus: L3 DANT
-  year: 2015-2016
-  school: UPMC
-  name: Nouvelles technologies du web (LI385)
-  githubProjectURL: https://github.com/adhumi/UPMC-LI385
+- cursus: "L3 DANT"
+  year: "2015-2016"
+  school: "UPMC"
+  name: "Nouvelles technologies du web (LI385)"
+  githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
 
   external_resources:
-    - title: Xcode 6.4 / Swift 1.2
-      url: http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_6.4/Xcode_6.4.dmg
-      note: Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet sur vos machines perso. Le téléchargement requiert un compte Apple Developer gratuit.
-      octicon: octicon-desktop-download
-    - title: Raccourcis clavier d'Xcode
-      url: http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf
-      octicon: octicon-file-pdf
+    - title: "Xcode 6.4 / Swift 1.2"
+      url: "http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_6.4/Xcode_6.4.dmg"
+      note: "Version installée sur les macs de la salle 409 et à utiliser pour les TPs et le projet sur vos machines perso. Le téléchargement requiert un compte Apple Developer gratuit."
+      octicon: "octicon-desktop-download"
+    - title: "Raccourcis clavier d'Xcode"
+      url: "http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf"
+      octicon: "octicon-file-pdf"
 
   sections:
-    - name: Cours
-      octicon: octicon-mortar-board
+    - name: "Cours"
+      octicon: "octicon-mortar-board"
       content:
-        - name: 0. Introduction
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours0.pdf
-        - name: 1. Dev stack, UI
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours1.pdf
-        - name: 2. Swift
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours2.pdf
-        - name: 3. MVC, Protocols, Persistence
-    - name: Travaux Pratiques
-      octicon: octicon-microscope
+        - name: "0. Introduction"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours0.pdf"
+        - name: "1. Dev stack, UI"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours1.pdf"
+        - name: "2. Swift"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours2.pdf"
+        - name: "3. <em>Pas de slides</em>"
+    - name: "Travaux Pratiques"
+      octicon: "octicon-microscope"
       content:
-        - name: TP 1 - WordCollage
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf
-        - name: TP 1 - Ressources
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/WordCollage.zip
-        - name: TP 2 - SpaceAdventure
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/TP2.pdf
-        - name: TP 2 - Ressources
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/SpaceAdventure.zip
-        - name: TP 3 - UnitConverter
-        - name: TP 3 - Ressources
-    - name: Projet
-      octicon: octicon-gist
+        - name: "TP 1 - WordCollage"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf"
+        - name: "TP 1 - Ressources"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/WordCollage.zip"
+        - name: "TP 2 - SpaceAdventure"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/TP2.pdf"
+        - name: "TP 2 - Ressources"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP2/SpaceAdventure.zip"
+        - name: "TP 3 - UnitConverter"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP3/TP3.pdf"
+    - name: "Projet"
+      octicon: "octicon-gist"
       content:
-        - name: Cahier des charges
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Projet/CahierDesCharges.pdf
+        - name: "Cahier des charges"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Projet/CahierDesCharges.pdf"
 
 
-- cursus: L3 DANT
-  year: 2014-2015
-  school: UPMC
-  name: Nouvelles technologies du web (LI385)
-  githubProjectURL: https://github.com/adhumi/UPMC-LI385
+- cursus: "L3 DANT"
+  year: "2014-2015"
+  school: "UPMC"
+  name: "Nouvelles technologies du web (LI385)"
+  githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Objective-C."
 
   sections:
-    - name: Cours
-      octicon: octicon-mortar-board
+    - name: "Cours"
+      octicon: "octicon-mortar-board"
       content:
-        - name: 1. Introduction à Objective-C
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours1.pdf
-        - name: 2. Architecture & Networking
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours2.pdf
-        - name: 3. Interfaces personalisées
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours3.pdf
-    - name: Travaux Pratiques
-      octicon: octicon-microscope
+        - name: "1. Introduction à Objective-C"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours1.pdf"
+        - name: "2. Architecture & Networking"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours2.pdf"
+        - name: "3. Interfaces personalisées"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/Cours/Cours3.pdf"
+    - name: "Travaux Pratiques"
+      octicon: "octicon-microscope"
       content:
-        - name: TP 1 - Découverte d'Objective-C et d'Xcode
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1.pdf
-        - name: TP 1 - Correction
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1-Correction.zip
-        - name: TP 2 - Architecture & Networking
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP2.pdf
-        - name: TP 3 - Interfaces personnalisées
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3.pdf
-        - name: TP 3 - Projet de base
-          link: https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3 outils.zip
+        - name: "TP 1 - Découverte d'Objective-C et d'Xcode"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1.pdf"
+        - name: "TP 1 - Correction"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP1-Correction.zip"
+        - name: "TP 2 - Architecture & Networking"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP2.pdf"
+        - name: "TP 3 - Interfaces personnalisées"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3.pdf"
+        - name: "TP 3 - Projet de base"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2014-2015/TP/TP3 outils.zip"
