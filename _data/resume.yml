@@ -1,0 +1,115 @@
+resume_subtitle: "iOS Developer"
+
+
+work:
+  - position_title: "iOS Engineer"
+    company: "Captain Train"
+    company_url: "www.captaintrain.com"
+    location: "Paris, France"
+    start_date: "2015-12-14 09:00:00"
+    end_date:
+    description:
+    key_technologies:
+      - "Objective-C"
+      - "Cocoa Touch"
+      
+  - position_title: "iOS Development Teacher"
+    company: "Université Pierre et Marie Curie (Sorbonne Universités)"
+    company_url: "www.upmc.fr"
+    location: "Paris, France"
+    start_date: "2015-02-01 09:00:00"
+    end_date:
+    description: "<p>Alongside my regular work, I teach iOS development to bachelor students following a professional course.</p>
+<p>The unit introduces mobile development on iOS with Objective-C or Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>"
+    key_technologies:
+      - "Swift"
+      - "Objective-C"
+      - "Cocoa Touch"
+      
+  - position_title: "iOS Developer"
+    company: "DJiT"
+    company_url: "www.edjing.com"
+    location: "Boulogne-Billancourt, France"
+    start_date: "2012-09-10 09:00:00"
+    end_date: "2015-11-13 18:00:00"
+    description: "<p>DJiT is an innovative start-up developing musical and social apps and hardware. It’s flagship application, edjing, is a leader in mix applications and reached 25 millions downloads in early 2015.</p>
+<p>On a team of five developers, I am in charge of:
+<ul><li>Developing edjing and edjing Pro on iOS. This includes the development of an iPad version, WatchKit extensions and continuous work to enhance the application on all devices and build new features.</li>
+<li>Developing and maintaining the other musical applications of DJiT.</li>
+<li>Researching for yet unreleased projects, in various fields of programming.</li></ul></p>"
+    key_technologies:
+      - "Swift"
+      - "Objective-C"
+      - "Cocoa Touch"
+      - "C"
+      - "Cocoa"
+      
+  - position_title: "Web Developer"
+    company: "Fantasy.fr"
+    company_url: "www.bragelone.fr"
+    location: "Paris, France"
+    start_date: "2011-09-01 09:00:00"
+    end_date: "2012-08-31 18:00:00"
+    description: "<p>Fantasy.fr is a news website about Sci-Fi and Fantasy. It is affiliated to Bragelonne, a well-known French editor of this genre of literature. In 2011, Fantasy.fr had an audience of 160 000 unique visitors per month.</p>
+<p>In collaboration with the chief editor, I worked on the development of the website. My key projects were the creation of an automated newsletter, the deployment of a blog platform and a complete visual enhancement of Fantasy.fr.</p>"
+    key_technologies:
+      - "PHP"
+      - "HTML"
+      - "CSS"
+      - "JavaScript"
+      - "LAMP server administration"
+
+
+skills:
+  - section_name: "iOS & Mac Development"
+    list:
+      - name: "Objective-C"
+        description: "Strong knowledge, 3+ years of active practice"
+      - name: "Swift"
+        description: "Strong knowledge, practicing since it’s release"
+      - name: "C"
+        description: "Basic knowledge"
+      - name: "Cocoa Touch"
+        description: "Strong knowledge, 3+ years of active practice"
+      - name: "Cocoa"
+        description: "Basic knowledge"
+        
+  - section_name: "Web Development"
+    list:
+      - name: "Basic knowledge in a LAMP environnement"
+        description: "PHP, HTML, CSS, JS"
+        
+  - section_name: "Languages"
+    list:
+      - name: "French"
+        description: "Native"
+      - name: "English"
+        description: "Professional working proficiency"
+      - name: "German"
+        description: "Elementary proficiency"
+
+
+education:
+  - curiculun: "Computer Sciences"
+    university: "Université Pierre et Marie Curie"
+    university_url: "www.upmc.fr"
+    location: "Paris, France"
+    start_date: "2009-09-01 09:00:00"
+    end_date: "2012-08-31 18:00:00"
+    description: "<p>DANT (Applications Developer, New Technologies) is an apprenticeship course, that leads to a Bachelor degree in Computer Sciences, strongly targeting development.</p>"
+    key_teachings:
+      - "Software engineering"
+      - "Advanced Java"
+      - "Web development"
+      - "Networking"
+      - "Databases"
+      - "Client/serveur architecture"
+
+
+hobbies:
+  - title:
+    description: "Programming for several ongoing projects."
+  - title:
+    description: "Co-founder and host of the audio webshow Poligeek, speaking about politics and high-tech (in standby since March 2013). Poligeek reached a regular audience of 10 000 downloads per issue."
+  - title: "Sports"
+    description: "Running (participated in trail running as well as road running races).<br/>Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)."
