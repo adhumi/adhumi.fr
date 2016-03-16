@@ -14,7 +14,11 @@
     - title: "Raccourcis clavier d'Xcode"
       url: "http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf"
       octicon: "octicon-file-pdf"
-
+    - title: "IBM Swift Sandbox"
+      note: "Attention, utilise la version 3.0-dev de Swift"
+      url: "https://swiftlang.ng.bluemix.net/#/repl"
+      octicon: "octicon-code"
+      
   sections:
     - name: "Cours"
       octicon: "octicon-mortar-board"
