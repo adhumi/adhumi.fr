@@ -25,9 +25,10 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours1.pdf"
         - name: "2. Swift"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours2.pdf"
-        - name: "3. <em>Pas de slides</em>"
+        - name: "3. <em>Pas de cours</em>"
         - name: "4. MVC, delegates, notification"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours4.pdf"
+        - name: "5. <em>Pas de cours</em>"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
@@ -43,6 +44,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP3/TP3.pdf"
         - name: "TP 4 - Clock"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP4/TP4.pdf"
+        - name: "TP 5 - MapKit"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP5/TP5.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
