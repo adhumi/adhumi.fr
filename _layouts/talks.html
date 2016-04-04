@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}css/talks.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/octicons/octicons.css">
+
+<h1 class="main">Talks</h1>
+
+<div class="grid">
+  {% for talk in site.data.talks %}
+  <div class="col-1-2">
+    <div class="section">
+      <a href="{{ talk.url }}"><img src="{{ talk.thumbnail }}" alt="{{ talk.title }}" /></a>
+      <h3><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
+      <p><a href="{{ talk.context_url }}">{{ talk.context }}</a>, {{ talk.date | date_to_string }}</p>
+      <hr/>
+     </div>
+  </div>
+  {% endfor %}
+</div>
