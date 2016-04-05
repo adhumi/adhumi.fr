@@ -16,7 +16,7 @@
 }
 
 .section {
-  border: 1px solid #EEE;
+  border: 1px solid #F3F3F3;
   border-radius: 5px;
   padding: 10px;
 }
@@ -27,17 +27,24 @@
 }
 
 .section h2, .external_resources h2 {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 0.9em;
-  color: #9a9a9a;
+  color: #777;
 	text-transform: uppercase;
 }
 
 .section ul, .external_resources ul {
   font-size: 0.8em;
-  padding: 0 0 0 30px;
+  padding: 0;
   margin: 0;
+  list-style-type: none;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.section ul > li:before {
+  content: "— ";
+  color: #9a9a9a;
+  font-weight: 700;
 }
 
 .external_resources {
