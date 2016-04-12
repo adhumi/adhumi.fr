@@ -54,6 +54,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP6/initialProject.zip"
         - name: "TP 6 - Ressources"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP6/resources.zip"
+        - name: "TP 7 - Navigation"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP7/TP7.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
