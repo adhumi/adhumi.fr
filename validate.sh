@@ -9,4 +9,4 @@ echo "### Building site"
 jekyll build --safe
 
 echo "### Validating site"
-htmlproof ./_site
+htmlproofer ./_site
