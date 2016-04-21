@@ -566,3 +566,9 @@ a.pagination-item:hover {
 .post .social-buttons {
   margin-bottom: 20px;
 }
+
+
+img.avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
