@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Adrien Humilière
-tagline:          'iOS/Mac developer'
-description:      'Hi! I am an iOS developer from Paris, France. I craft code at <a href="http://www.captaintrain.com">Captain Train</a> and teach iOS development to students at UPMC.<br/>If you want to know more about me, please look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+tagline:          'iOS developer'
+description:      'Hi! I am an iOS developer from Paris, France. I craft code at <a href="http://www.captaintrain.com">Captain Train</a> and teach iOS development to students at UPMC.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
 url:              http://adhumi.fr
 baseurl:          '/'
 paginate:         5
@@ -29,5 +29,7 @@ exclude:          [vendor, readlist.md]
 seo-description:  'I am an iOS and Mac developer from Paris, France. This is my personnal page.'
 seo-keywords:     'developer, objective-c, swift, apple, edjing'
 
-# Pagination
-gems:             [jekyll-paginate]
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-github-metadata

@@ -32,7 +32,7 @@
         - name: "4. MVC, delegates, notification"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours4.pdf"
     - name: "Travaux Pratiques"
-      octicon: "octicon-microscope"
+      octicon: "octicon-microswcope"
       content:
         - name: "TP 1 - WordCollage"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf"
