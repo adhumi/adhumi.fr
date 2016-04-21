@@ -12,9 +12,9 @@ work:
     key_technologies:
       - "Objective-C"
       - "Cocoa Touch"
-      
+
   - position_title: "iOS Development Teacher"
-    company: "Université Pierre et Marie Curie (Sorbonne Universités)"
+    company: "Université Pierre et Marie Curie"
     company_url: "www.upmc.fr"
     location: "Paris, France"
     start_date: "2015-02-01 09:00:00"
@@ -25,7 +25,7 @@ work:
       - "Swift"
       - "Objective-C"
       - "Cocoa Touch"
-      
+
   - position_title: "iOS Developer"
     company: "DJiT"
     company_url: "www.edjing.com"
@@ -43,7 +43,7 @@ work:
       - "Cocoa Touch"
       - "C"
       - "Cocoa"
-      
+
   - position_title: "Web Developer"
     company: "Fantasy.fr"
     company_url: "www.bragelone.fr"
@@ -73,12 +73,12 @@ skills:
         description: "Strong knowledge, 3+ years of active practice"
       - name: "Cocoa"
         description: "Basic knowledge"
-        
+
   - section_name: "Web Development"
     list:
       - name: "Basic knowledge in a LAMP environnement"
         description: "PHP, HTML, CSS, JS"
-        
+
   - section_name: "Languages"
     list:
       - name: "French"
@@ -90,7 +90,7 @@ skills:
 
 
 education:
-  - curiculun: "Computer Sciences"
+  - curiculum: "Computer Sciences"
     university: "Université Pierre et Marie Curie"
     university_url: "www.upmc.fr"
     location: "Paris, France"
@@ -112,4 +112,4 @@ hobbies:
   - title:
     description: "Co-founder and host of the audio webshow Poligeek, speaking about politics and high-tech (in standby since March 2013). Poligeek reached a regular audience of 10 000 downloads per issue."
   - title: "Sports"
-    description: "Running (participated in trail running as well as road running races).<br/>Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)."
+    description: "Running (participated in trail running as well as road running races, up to 50 km).<br/>Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)."

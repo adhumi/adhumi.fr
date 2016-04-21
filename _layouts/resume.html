@@ -9,7 +9,7 @@ layout: default
 	<div class="mainDetails">
 		<div id="name">
 			<h1>Adrien Humilière</h1>
-			<h2>iOS/Mac developer</h2>
+			<h2>{{ site.data.resume.resume_subtitle }}</h2>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -21,47 +21,18 @@ layout: default
 			</div>
 
 			<div class="sectionContent">
+				{% for work in site.data.resume.work %}
 				<article>
-					<h2>iOS Engineer @ Captain Train</h2>
-					<p class="subDetails">Since December 2015 - Paris, France</p>
-
-					<p>Technologies: <em>Objective-C, Cocoa Touch.</em></p>
+					<h2>{{ work.position_title }} @ <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
+					{% if work.end_date %}
+					<p class="subDetails">{{ work.start_date | date: "%B %Y"}} to {{ work.end_date | date: "%B %Y"}} – {{ work.location }}</p>
+					{% else %}
+					<p class="subDetails">Since {{ work.start_date | date: "%B %Y"}} – {{ work.location }}</p>
+					{% endif %}
+					{{ work.description }}
+					<p>Technologies: <em>{{ work.key_technologies | array_to_sentence_string }}.</em></p>
 				</article>
-
-				<article>
-					<h2>iOS Development teacher @ Université Pierre et Marie Curie (UPMC)</h2>
-					<p class="subDetails">Since February 2015 - Paris, France</p>
-					<p>Alongside my regular work, I teach iOS development to bachelor students following a professional course.</p>
-
-					<p>The unit introduces mobile development on iOS with Objective-C or Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>
-
-					<p>Technologies: <em>Swift, Objective-C, Cocoa Touch.</em></p>
-				</article>
-
-				<article>
-					<h2>iOS Developer @ edjing</h2>
-					<p class="subDetails">September 2012 to November 2015 - Boulogne-Billancourt, France</p>
-					<p>DJiT is an innovative start-up developing musical and social apps and hardware. It’s flagship application, edjing, is a leader in mix applications and reached 25 millions downloads in early 2015. </p>
-
-					<p class="beforeUL">On a team of five developers, I am in charge of:</p>
-						<ul>
-							<li>Developing edjing and edjing Pro on iOS. This includes the development of an iPad version, WatchKit extensions and continuous work to enhance the application on all devices and build new features.</li>
-							<li>Developing and maintaining the other musical applications of DJiT.</li>
-							<li>Researching for yet unreleased projects, in various fields of programming.</li>
-						</ul>
-
-					<p>Technologies: <em>Objective-C, Cocoa Touch, Swift, C, Cocoa.</em></p>
-				</article>
-
-				<article>
-					<h2>Web Developer @ Fantasy.fr</h2>
-					<p class="subDetails">September 2011 to August 2012 - Paris, France</p>
-					<p>Fantasy.fr is a news website about Sci-Fi and Fantasy. It is affiliated to Bragelonne, a well-known French editor of this genre of literature. In 2011, Fantasy.fr had an audience of 160 000 unique visitors per month.</p>
-
-					<p>In collaboration with the chief editor, I worked on the development of the website. My key projects were the creation of an automated newsletter, the deployment of a blog platform and a complete visual enhancement of Fantasy.fr.</p>
-
-					<p>Technologies: <em>PHP, HTML, CSS, JavaScript, LAMP server administration.</em></p>
-				</article>
+				{% endfor %}
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -72,29 +43,16 @@ layout: default
 				<h1>Skills</h1>
 			</div>
 
+
 			<div class="sectionContent">
-				<h3>iOS/Mac development</h3>
-
+				{% for section in site.data.resume.skills %}
+				<h3>{{ section.section_name }}</h3>
 				<ul>
-					<li>Objective-C : <em>Strong knowledge, 3+ years of active practice</em></li>
-					<li>Swift : <em>Strong knowledge, practicing since it’s release</em></li>
-					<li>C : <em>Basic knowledge</em></li>
-					<li>Cocoa touch : <em>Strong knowledge, 3+ years of active practice</em></li>
-					<li>Cocoa : <em>Basic knowledge</em></li>
-					<li>Java : <em>Basic knowledge</em></li>
+					{% for skill in section.list %}
+					<li>{{ skill.name }}: <em>{{ skill.description }}</em></li>
+					{% endfor %}
 				</ul>
-
-				<h3>Web development:</h3>
-				<ul>
-					<li>Basic knowledge in a LAMP environnement: PHP, HTML, CSS, JS</li>
-				</ul>
-
-				<h3>Languages</h3>
-				<ul>
-					<li>French : <em>Native</em></li>
-					<li>English : <em>Professional working proficiency</em></li>
-					<li>German : <em>Elementary proficiency</em></li>
-				</ul>
+				{% endfor %}
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -106,18 +64,15 @@ layout: default
 			</div>
 
 			<div class="sectionContent">
+				{% for education in site.data.resume.education %}
 				<article>
-					<h2>Computer Sciences @ Université Pierre et Marie Curie (UPMC, Paris)</h2>
-					<p class="subDetails">Graduated in September 2012</p>
-					<p>DANT (Applications Developer, New Technologies) is an apprenticeship course, that leads to a Bachelor degree in Computer Sciences, strongly targeting development.</p>
+					<h2>{{ education.curiculum }} @ <a href="{{ education.university_url }}">{{ education.university }}</a></h2>
+					<p class="subDetails">Graduated in {{ education.end_date | date: "%B %Y"}} – {{ education.location }}</p>
+					{{ education.description }}
 
-					<p>Followed topics: <em>Software engineering, Advanced Java, Web development, Networking, Databases, Client/serveur architecture.</em></p>
+					<p>Followed topics: <em>{{ education.key_teachings | array_to_sentence_string }}.</em></p>
 				</article>
-
-				<article>
-					<h2>Earth Sciences @ Université Pierre et Marie Curie (UPMC, Paris)</h2>
-					<p> </p>
-				</article>
+				{% endfor %}
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -130,14 +85,10 @@ layout: default
 				</div>
 
 				<div class="sectionContent">
-					<p>Programming for several ongoing projects.</p>
-
-					<p>Co-founder and host of the audio webshow Poligeek, speaking about politics and high-tech (in standby since March 2013). Poligeek reached a regular audience of 10 000 downloads per issue.</p>
-
-					<h3>Sports :</h3>
-
-					<p>Running (participated in trail running as well as road running races)</br>
-						Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)</p>
+				{% for hobbie in site.data.resume.hobbies %}
+					{% if hobbie.title %}<h3>{{ hobbie.title }}</h3>{% endif %}
+					<p>{{ hobbie.description }}</p>
+				{% endfor %}
 				</div>
 			</article>
 			<div class="clear"></div>

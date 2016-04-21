@@ -1,5 +1,9 @@
 .clear {clear: both;}
 
+.container {
+	max-width: 50rem;
+}
+
 p {
 	font-size: 0.85em;
 	line-height: 1.4em;
@@ -78,6 +82,10 @@ section:last-child {
 	font-size: 1.3em;
 	margin-bottom: -2px;
 	margin-top: 0px;
+}
+
+.sectionContent h2 a {
+	color: #666;
 }
 
 .sectionContent h3 {
