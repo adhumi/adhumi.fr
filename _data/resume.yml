@@ -4,7 +4,7 @@ resume_subtitle: "iOS Developer"
 work:
   - position_title: "iOS Engineer"
     company: "Captain Train"
-    company_url: "www.captaintrain.com"
+    company_url: "http://www.captaintrain.com"
     location: "Paris, France"
     start_date: "2015-12-14 09:00:00"
     end_date:
@@ -15,7 +15,7 @@ work:
 
   - position_title: "iOS Development Teacher"
     company: "Université Pierre et Marie Curie"
-    company_url: "www.upmc.fr"
+    company_url: "http://www.upmc.fr"
     location: "Paris, France"
     start_date: "2015-02-01 09:00:00"
     end_date:
@@ -28,7 +28,7 @@ work:
 
   - position_title: "iOS Developer"
     company: "DJiT"
-    company_url: "www.edjing.com"
+    company_url: "http://www.edjing.com"
     location: "Boulogne-Billancourt, France"
     start_date: "2012-09-10 09:00:00"
     end_date: "2015-11-13 18:00:00"
@@ -46,7 +46,7 @@ work:
 
   - position_title: "Web Developer"
     company: "Fantasy.fr"
-    company_url: "www.bragelone.fr"
+    company_url: "http://www.bragelonne.fr"
     location: "Paris, France"
     start_date: "2011-09-01 09:00:00"
     end_date: "2012-08-31 18:00:00"
@@ -92,7 +92,7 @@ skills:
 education:
   - curiculum: "Computer Sciences"
     university: "Université Pierre et Marie Curie"
-    university_url: "www.upmc.fr"
+    university_url: "http://www.upmc.fr"
     location: "Paris, France"
     start_date: "2009-09-01 09:00:00"
     end_date: "2012-08-31 18:00:00"
