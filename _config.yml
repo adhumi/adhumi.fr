@@ -26,8 +26,8 @@ github:
 exclude:          [vendor, readlist.md, validate.sh]
 
 # SEO
-seo-description:  'I am an iOS and Mac developer from Paris, France. This is my personnal page.'
-seo-keywords:     'developer, objective-c, swift, apple, edjing'
+seo-description:  'I am an iOS developer from Paris, France. I craft code at Captain Train and teach iOS development to students at UPMC.'
+seo-keywords:     'developer, objective-c, swift, apple, ios, edjing, captain train'
 
 # Gems
 gems:
