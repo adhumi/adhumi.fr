@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "De l’importance de contrôler le flux RSS de son podcast"
-date:   2011-12-19 16:57:51
+layout: 	post
+section:	blog
+title:  	"De l’importance de contrôler le flux RSS de son podcast"
+date:   	2011-12-19 16:57:51
 ---
 
 Il serait temps de faire revivre ce lieu...

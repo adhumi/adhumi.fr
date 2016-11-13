@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Connexion à internet : jusqu’où ?"
-date:   2010-11-08 16:57:51
+layout: 	post
+section:	blog
+title:  	"Connexion à internet : jusqu’où ?"
+date:   	2010-11-08 16:57:51
 ---
 
 <a href="http://www.flickr.com/photos/fkehren/8250908421/"><img alt="8250908421_0de656b203_b" src="https://farm9.staticflickr.com/8200/8250908421_0de656b203_b.jpg" /></a>

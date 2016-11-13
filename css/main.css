@@ -4,6 +4,10 @@
   background: linear-gradient(to left, #4CB8C4 , #3CD3AD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.clear {
+	clear: both;
+}
+
 h1, h2, h3, h4, h5 {
   color: #3CD3AD !important;
 }
@@ -52,4 +56,61 @@ label.sidebar-toggle {
 
 .sidebar-toggle:active, #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: rgba(255, 255, 255, 0);
+}
+
+.recipes {
+  padding-left: 0;
+  list-style: none;
+}
+.recipes h3 {
+  margin-top: 0;
+}
+.recipes li small {
+	margin-left: 10px;
+  font-size: 60%;
+  color: #999;
+}
+.recipes li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.recipes li a:hover small {
+  color: inherit;
+}
+
+div.ingredients {
+	padding: 15px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+
+div.ingredients h3 {
+	margin-top: 0px;
+}
+
+div.ingredients ul {
+	margin-bottom: 0px;
+}
+
+div.steps {
+	margin-bottom: 20px;
+}
+
+div.steps p {
+	margin: 0;
+	text-align: right;
+	font-style: italic;
+}
+
+p.box {
+	padding: 15px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }

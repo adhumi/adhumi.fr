@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Créer un flux RSS de podcast “à la main”"
-date:   2011-03-02 16:57:51
+layout: 	post
+section:	blog
+title:  	"Créer un flux RSS de podcast “à la main”"
+date:   	2011-03-02 16:57:51
 ---
 
 Quand on souhaite créer un podcast, il y a d’abord la phase de conception du podcast (la partie la plus important, on en parlera ici prochainement), puis vient le moment fatidique où il faut mettre tout ça en ligne pour le partager et le faire découvrir à ses futurs poditeurs.

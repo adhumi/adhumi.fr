@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Objective-C coding styles"
-date:   2014-05-22 16:57:51
+layout: 	post
+section:	blog
+title:  	"Objective-C coding styles"
+date:  		2014-05-22 16:57:51
 ---
 
 Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.

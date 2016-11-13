@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "A propos des applications Freepod"
-date:   2012-08-05 16:57:51
+layout: 	post
+section:	blog
+title:  	"A propos des applications Freepod"
+date:   	2012-08-05 16:57:51
 ---
 
 _**Edit du 22/05/2014 :** L'application coté serveur n'étant plus en ligne et suite à l'arrêt de Freepod, j'ai pris la décision de supprimer l'application de l'AppStore._
