@@ -1,0 +1,30 @@
+---
+layout: default
+title: Mes recettes
+---
+<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/review.css">
+
+<div class="posts">
+	<h1>🍴 Mes recettes</h1>
+	
+	<p>Quelques recettes que j'aime préparer et manger (en français).</p>
+	
+	<hr/>
+	
+	<ul class="recipes">
+		{% assign posts = site.posts | sort: 'title' %}
+		{% for post in posts %}
+		{% if post.section contains 'recipe' %}
+		<li>
+			<h3>
+				<a href="{{ post.url }}">
+				    {{ post.title }}
+				    <small>{{ post.date | date_to_string }}</small>
+				</a>
+			</h3>
+		</li>
+		{% endif %}
+		{% endfor %}
+	<ul>
+</div>

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
+
+<div class="post">
+	<p><a href="/recipes">Recettes</a></p>
+	<h1 class="post-title">{{ page.title }}</h1>
+	<span class="post-date">Published on {{ page.date | date_to_string }}</span>
+
+	<div class="social-buttons">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="adhumi" data-related="adhumi" data-count="none" data-dnt="true">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+
+
+	<div class="steps">
+		{% for step in page.steps %}
+			<p>{{ step.title | markdownify | remove: '<p>' | remove: '</p>' }} : {{ step.duration | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+		{% endfor %}
+	</div>
+
+	<div class="col-2-3">
+		<div class="ingredients">
+			<h3>Ingrédients{% if page.quantity %} ({{ page.quantity }}){% endif %}</h3>
+			<ul>
+				{% for ingredient in page.ingredients %}
+					<li>{{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+  	{{ content }}
+	
+	{% if page.pairing_drinks %}
+	<p class="box">
+		Boisson conseillée : {{ page.pairing_drinks }}
+	</p>
+	{% endif %}
+	
+	{% if page.pairing_food %}
+	<p class="box">
+		En accompagnement : {{ page.pairing_food }}
+	</p>
+	{% endif %}
+</div>
