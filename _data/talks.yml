@@ -1,9 +1,9 @@
-- title: Cocoapods for private libraries
+- title: What's new in iOS 9
   context: Cocoaheads Paris
   context_url: http://cocoaheads.fr
-  date: 2016-02-11 19:00:00
-  url: https://github.com/adhumi/talks/raw/master/2016-02-cocoapods-private-libraries/privatepods.pdf
-  thumbnail: https://github.com/adhumi/talks/raw/master/2016-02-cocoapods-private-libraries/privatepods.jpg
+  date: 2017-01-12 19:00:00
+  url: https://github.com/adhumi/talks/raw/master/2017-01-whats-new-ios9/CocoaheadsJan17.pdf
+  thumbnail: https://github.com/adhumi/talks/raw/master/2017-01-whats-new-ios9/CocoaheadsJan17.jpg
 
 - title: Rebranding an iOS app
   context: Cocoaheads Paris
@@ -12,9 +12,9 @@
   url: https://github.com/adhumi/talks/raw/master/2016-09-rebranding-ios-app/CocoaheadsSep16.pdf
   thumbnail: https://github.com/adhumi/talks/raw/master/2016-09-rebranding-ios-app/CocoaheadsSep16.jpg
 
-- title: What's new in iOS 9
+- title: Cocoapods for private libraries
   context: Cocoaheads Paris
   context_url: http://cocoaheads.fr
-  date: 2017-01-12 19:00:00
-  url: https://github.com/adhumi/talks/raw/master/2017-01-whats-new-ios9/CocoaheadsJan17.pdf
-  thumbnail: https://github.com/adhumi/talks/raw/master/2017-01-whats-new-ios9/CocoaheadsJan17.jpg
+  date: 2016-02-11 19:00:00
+  url: https://github.com/adhumi/talks/raw/master/2016-02-cocoapods-private-libraries/privatepods.pdf
+  thumbnail: https://github.com/adhumi/talks/raw/master/2016-02-cocoapods-private-libraries/privatepods.jpg
