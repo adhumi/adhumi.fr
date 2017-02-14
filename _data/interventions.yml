@@ -1,4 +1,41 @@
 - cursus: "L3 DANT"
+  year: "2016-2017"
+  school: "UPMC"
+  name: "Nouvelles technologies du web (LI385)"
+  githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
+  abstract: "Introduction à la programmation iOS avec Swift."
+  licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+
+  external_resources:
+    - title: "Raccourcis clavier d'Xcode"
+      url: "http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf"
+      octicon: "octicon-file-pdf"
+    - title: "IBM Swift Sandbox"
+      url: "https://swiftlang.ng.bluemix.net/#/repl"
+      octicon: "octicon-code"
+
+  sections:
+    - name: "Cours"
+      octicon: "octicon-mortar-board"
+      content:
+        - name: "1. Introduction, Dev stack, UI"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/Cours/Cours1-20170215.pdf"
+    - name: "Travaux Pratiques"
+      octicon: "octicon-microscope"
+      content:
+        - name: "TP1.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP1/TP1.pdf"
+        - name: "Flashlight.zip"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP1/Flashlight.zip"
+        - name: "WordCollage.zip"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP1/WordCollage.zip"
+    - name: "Projet"
+      octicon: "octicon-gist"
+      content:
+        - name: "Présentation du projet"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/Projet/Projet.pdf"
+
+- cursus: "L3 DANT"
   year: "2015-2016"
   school: "UPMC"
   name: "Nouvelles technologies du web (LI385)"
@@ -32,7 +69,7 @@
         - name: "4. MVC, delegates, notification"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Cours/pdf/Cours4.pdf"
     - name: "Travaux Pratiques"
-      octicon: "octicon-microswcope"
+      octicon: "octicon-microscope"
       content:
         - name: "TP 1 - WordCollage"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/TP/TP1/TP1.pdf"
