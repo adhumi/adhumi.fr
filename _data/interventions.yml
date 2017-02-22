@@ -33,7 +33,7 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP1/WordCollage.zip"
         - name: "TP2.pdf"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP2/TP2.pdf"
-        - name: "Flashlight.zip"
+        - name: "SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP2/SpaceAdventure.zip"
     - name: "Projet"
       octicon: "octicon-gist"
