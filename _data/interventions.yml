@@ -35,6 +35,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP2/TP2.pdf"
         - name: "SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP2/SpaceAdventure.zip"
+        - name: "TP3.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP3/TP3.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
