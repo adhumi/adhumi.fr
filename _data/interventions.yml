@@ -41,6 +41,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP4/TP4.pdf"
         - name: "TP5.pdf"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP5/TP5.pdf"
+        - name: "TP6.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/TP/TP6/TP6.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
