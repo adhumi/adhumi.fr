@@ -4,7 +4,7 @@
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
-  licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+  licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
 
   external_resources:
     - title: "Raccourcis clavier d'Xcode"
@@ -55,7 +55,7 @@
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
-  licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+  licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
 
   external_resources:
     - title: "Xcode 6.4 / Swift 1.2"
