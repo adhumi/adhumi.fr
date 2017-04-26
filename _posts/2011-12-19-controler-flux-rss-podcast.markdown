@@ -3,11 +3,14 @@ layout: 	post
 section:	blog
 title:  	"De l’importance de contrôler le flux RSS de son podcast"
 date:   	2011-12-19 16:57:51
+excerpt_separator:  "<!--more-->"
 ---
 
 Il serait temps de faire revivre ce lieu...
 
 Il y a quelques temps, j’ai publié ici un billet expliquant comment mettre en place un flux rss "à la main" pour son podcast (<a href="http://adhumi.fr/2011/03/02/flux-rss-podcast-manuel">voir ici</a>). Suites aux mésaventures traversées par quelques camarades podcasteurs autour de leur flux RSS, j’ai ressenti le besoin d’écrire une bafouille pour expliquer l’importance de contrôler soi-même son flux.
+
+<!--more-->
 
 J’en ai moi même fait les frais pour les extras de Poli*Geek. Ce podcast audio et vidéo est hébergés sur le service Blip.tv, qui propose un bon service d’hébergement gratuit pour des podcasts d’audience modeste (le débit de téléchargement n’est pas particulièrement rapide). Blip.tv propose de générer automatiquement un flux qui puisse être récupéré par iTunes pour en faire un podcast. La plupart des CMS génèrent eux aussi (plus ou moins nativement) un flux RSS exploitable par iTunes pour en faire un podcast.
 

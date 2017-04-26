@@ -3,23 +3,30 @@ layout: default
 title: Talks
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}css/talks.css">
-<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
-<link rel="stylesheet" href="{{ site.baseurl }}css/octicons/octicons.css">
-
-<h1 class="main">Talks</h1>
-
-<div class="grid">
-	{% for post in site.posts %}
-	{% if post.section contains 'talks' %}
-  <div class="col-1-2">
-    <div class="section">
-      <a href="{{ post.url }}"><img src="{{ post.thumbnail_url }}" alt="{{ post.title }}" /></a>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><a href="{{ post.context_url }}">{{ post.context }}</a>, {{ post.date | date_to_string }}</p>
-      <hr/>
-     </div>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="main">Talks</h1>
+      </div>
+    </div>
   </div>
-	{% endif %}
-	{% endfor %}
+<header>
+
+<div class="container">
+  <div class="row">
+    <div class="card-columns">
+    	{% for post in site.posts %}
+    	{% if post.section contains 'talks' %}
+      <div class="card">
+          <a href="{{ post.url }}"><img class="card-img-top img-fluid" src="{{ post.thumbnail_url }}" alt="{{ post.title }}" /></a>
+          <div class="card-block">
+            <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            <p class="card-text"><a href="{{ post.context_url }}">{{ post.context }}</a>, {{ post.date | date_to_string }}</p>              
+          </div>
+      </div>
+    	{% endif %}
+    	{% endfor %}
+    </div>
+  </div>
 </div>

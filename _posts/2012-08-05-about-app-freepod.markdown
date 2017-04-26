@@ -3,12 +3,14 @@ layout: 	post
 section:	blog
 title:  	"A propos des applications Freepod"
 date:   	2012-08-05 16:57:51
+excerpt_separator:  "<!--more-->"
 ---
 
-_**Edit du 22/05/2014 :** L'application coté serveur n'étant plus en ligne et suite à l'arrêt de Freepod, j'ai pris la décision de supprimer l'application de l'AppStore._
+_**Edit du 22/05/2014 :** Le backend n'étant plus en ligne et suite à l'arrêt des activités de Freepod, j'ai pris la décision de retirer l'application de l'AppStore._
 
 Quelques mots à propos des apps Freepod, sorties depuis déjà un mois. Sur le bilan de cette sortie, sur <i>"comment on a fait le bébé"</i> et sur les évolutions futures de l’application.
 
+<!--more-->
 
 # 2500 applications Freepod dans la nature
 
