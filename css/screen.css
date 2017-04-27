@@ -122,3 +122,9 @@ header.category {
 .recipes-abstracts article:last-child {
   border-bottom: 0px;
 }
+
+/* Recipe */
+
+.recipe .card {
+  margin-bottom: 2em;
+}
