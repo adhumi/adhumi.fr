@@ -20,6 +20,28 @@ footer.emoji {
   margin-bottom: 2em;
 }
 
+/* Post */
+
+article.post header {
+  margin: 6em 0 6em 0;
+}
+
+article.post .content h1 {
+  margin: 2em 0 0.5em 0;
+}
+
+article.post .content h1:before {
+  content: "#";
+  width: 1em;
+  margin-left: -1em;
+  display: inline-block;
+  color: #ccc;
+}
+
+article.post .content {
+  margin-bottom: 5em;
+}
+
 /* Teaching */
 
 .teaching {
