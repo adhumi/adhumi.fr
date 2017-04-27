@@ -5,6 +5,7 @@
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
+  identifier: dant_2017
 
   external_resources:
     - title: "Raccourcis clavier d'Xcode"
@@ -56,6 +57,7 @@
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
+  identifier: dant_2016
 
   external_resources:
     - title: "Xcode 6.4 / Swift 1.2"
@@ -120,6 +122,7 @@
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Objective-C."
+  identifier: dant_2015
 
   sections:
     - name: "Cours"

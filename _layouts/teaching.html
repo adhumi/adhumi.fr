@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container teaching">
   <div class="row">
       <div class="col">
         {% for intervention in site.data.interventions %}
@@ -16,34 +16,44 @@ layout: default
             <p class="card-text lead">{{ intervention.abstract }}</p>
             {% if intervention.licence %}<p class="card-text"><small class="text-muted">{{ intervention.licence }}</small></p>{% endif %}
           </div>
+          
+          
+          {% if intervention.sections %}
           <div class="card-block">
-            {% if intervention.sections %}
-            <div class="row">
+            <ul class="nav nav-tabs" role="tablist">
               {% for section in intervention.sections %}
-              <div class="col">
-                  <h5>{{ section.name }}</h5>
-                  <div class="list-group">
-                    {% for subsection in section.content %}
-                      <a class="list-group-item list-group-item-action justify-content-between"{% if subsection.link %} href="{{ subsection.link }}"{% endif %}>
-                        {{ subsection.name }}
-                        <span><span class="octicon octicon-cloud-download"></span></span>
-                      </a>
-                    {% endfor %}
-                  </div>
-              </div>
+              <li class="nav-item">
+                <a class="nav-link{% if forloop.index == 1 %} active{% endif %}" data-toggle="tab" href="#{{ intervention.identifier }}_{{ forloop.index }}" role="tab">{{ section.name }}</a>
+              </li>
               {% endfor %}
+            </ul>
+          
+            <div class="tab-content">
+            {% for section in intervention.sections %}
+            <div class="tab-pane{% if forloop.index == 1 %} active{% endif %}" id="{{ intervention.identifier }}_{{ forloop.index }}" role="tabpanel">
+              <div class="list-group">
+                {% for subsection in section.content %}
+                  <a class="list-group-item list-group-item-action justify-content-between"{% if subsection.link %} href="{{ subsection.link }}"{% endif %}>
+                    {{ subsection.name }}
+                    <span><span class="octicon octicon-cloud-download"></span></span>
+                  </a>
+                {% endfor %}
+              </div>
             </div>
-            {% endif %}
+            {% endfor %}
+            </div>
           </div>
+          {% endif %}
+          
+          {% if intervention.external_resources %}
           <div class="card-block">
-            {% if intervention.external_resources %}
             <ul>
               {% for external_resource in intervention.external_resources %}
                 <li>{% if external_resource.octicon %}<span class="octicon {{ external_resource.octicon }}"></span>  {% endif %}{% if external_resource.url %}<a href="{{ external_resource.url }}">{% endif %}{{ external_resource.title }}{% if external_resource.url %}</a>{% endif %}{% if external_resource.note %} <em>({{ external_resource.note }})</em>{% endif %}</li>
               {% endfor %}
             </ul>
-            {% endif %}
           </div>
+          {% endif %}
         </div>
         {% endfor %}
     </div>

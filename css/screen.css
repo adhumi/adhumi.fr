@@ -20,4 +20,16 @@ footer.emoji {
   margin-bottom: 2em;
 }
 
+/* Teaching */
+
+.teaching {
+  margin-bottom: 4em;
+}
+
+.teaching .card {
+  margin-top: 2em;
+}
+
+.teaching .card .list-group {
+  margin-top: 1em;
 }
