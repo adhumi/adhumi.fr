@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div>
+<div class="site-introduction">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -26,8 +26,8 @@ title: Home
 
           {{ post.excerpt }}
 
-          <p><a href="{{ post.url }}" class="btn btn-outline-info btn-sm">Read more</a>
-          <span>Published on {{ post.date | date_to_string }}.</span></p>
+          <p><small class="text-muted">Published on {{ post.date | date_to_string }}.</small></p>
+          <p><a href="{{ post.url }}" class="btn btn-outline-info btn-sm">Read more</a></p>
         </div>
       </div>
     </div>
