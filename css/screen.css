@@ -14,4 +14,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   color: #292b2c;
   border-bottom: 1px dotted #ccc;
   text-decoration: none;
+/* Footer */
+
+footer.emoji {
+  margin-bottom: 2em;
+}
+
 }
