@@ -8,7 +8,7 @@ permalink:        /:title
 # Setup
 title:            Adrien Humilière
 tagline:          'iOS developer'
-description:      'Hi! I am an iOS developer from Paris, France. I craft code at <a href="http://www.captaintrain.com">Captain Train</a> and teach iOS development to students at UPMC.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+description:      'Hi! I am an iOS developer from Paris, France. I craft code at <a href="http://www.trainline.eu">Trainline Europe</a> (ex-Captain Train) and teach iOS development to students at UPMC.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
 url:              http://adhumi.fr
 baseurl:          '/'
 paginate:         5
@@ -26,7 +26,7 @@ github:
 exclude:          [vendor, readlist.md, validate.sh]
 
 # SEO
-seo-description:  'I am an iOS developer from Paris, France. I craft code at Captain Train and teach iOS development to students at UPMC.'
+seo-description:  'I am an iOS developer from Paris, France. I craft code at Trainline Europe (Captain Train) and teach iOS development to students at UPMC.'
 seo-keywords:     'developer, objective-c, swift, apple, ios, edjing, captain train'
 
 # Gems
