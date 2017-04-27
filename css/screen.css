@@ -113,3 +113,12 @@ article.post .content {
 header.category {
   margin: 6em 0 6em 0;
 }
+
+.recipes-abstracts article {
+  border-bottom: 1px solid #eee;
+  margin: 1em 0 1em 0;
+}
+
+.recipes-abstracts article:last-child {
+  border-bottom: 0px;
+}
