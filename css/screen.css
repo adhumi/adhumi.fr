@@ -70,6 +70,14 @@ article.post header {
   margin: 6em 0 6em 0;
 }
 
+article.post header h1 a.back:before {
+  content: "<";
+  width: 1.1em;
+  margin-left: -1.1em;
+  display: inline-block;
+  color: #ccc;
+}
+
 article.post .content h1 {
   margin: 2em 0 0.5em 0;
 }
