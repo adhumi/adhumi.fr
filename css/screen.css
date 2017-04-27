@@ -56,11 +56,11 @@ footer.emoji {
   margin: 4em 0 4em 0;
 }
 
-.posts-abstracts article {
+.posts-abstracts article, .talks-abstracts article {
   margin: 0 0 2em 0;
 }
 
-.posts-abstracts h1 {
+.posts-abstracts h1, .talks-abstracts h1 {
   font-weight: normal;
 }
 
@@ -106,4 +106,10 @@ article.post .content {
 
 .teaching .card .list-group {
   margin-top: 1em;
+}
+
+/* Category */
+
+header.category {
+  margin: 6em 0 6em 0;
 }

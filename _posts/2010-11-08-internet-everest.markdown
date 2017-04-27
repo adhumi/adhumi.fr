@@ -10,7 +10,7 @@ Tout le monde a finit par le savoir. Il y a quelques jours, la société de tél
 
 <!--more-->
 
-<a href="http://www.flickr.com/photos/fkehren/8250908421/"><img alt="8250908421_0de656b203_b" src="https://farm9.staticflickr.com/8200/8250908421_0de656b203_b.jpg" /></a>
+<a href="http://www.flickr.com/photos/fkehren/8250908421/"><img alt="8250908421_0de656b203_b" src="https://farm9.staticflickr.com/8200/8250908421_0de656b203_b.jpg" class="img-fluid"/></a>
 
 On voit partout sur le net des réactions de blogueurs et journalistes s’enthousiasmant de ce fait, considérant que c’est un incroyable avancée pour les alpinistes qui pourront communiquer avec leurs familles et envoyer des rapports de leurs expéditions par internet. Bientôt un livetweet de l’ascension ?
 
