@@ -8,9 +8,10 @@ work:
     location: "Paris, France"
     start_date: "2015-12-14 09:00:00"
     end_date:
-    description:
+    description: "<p>Development and maintenance of the iOS app of Trainline Europe (formerly Captain Train).</p>"
     key_technologies:
       - "Objective-C"
+      - "Swift"
       - "Cocoa Touch"
 
   - position_title: "iOS Development Teacher"
@@ -20,7 +21,7 @@ work:
     start_date: "2015-02-01 09:00:00"
     end_date:
     description: "<p>Alongside my regular work, I teach iOS development to bachelor students following a professional course.</p>
-<p>The unit introduces mobile development on iOS with Objective-C or Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>"
+<p>The unit introduces mobile development on iOS with Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>"
     key_technologies:
       - "Swift"
       - "Objective-C"
@@ -33,10 +34,10 @@ work:
     start_date: "2012-09-10 09:00:00"
     end_date: "2015-11-13 18:00:00"
     description: "<p>DJiT is an innovative start-up developing musical and social apps and hardware. It’s flagship application, edjing, is a leader in mix applications and reached 25 millions downloads in early 2015.</p>
-<p>On a team of five developers, I am in charge of:
+<p>On a team of five developers, I was in charge of:
 <ul><li>Developing edjing and edjing Pro on iOS. This includes the development of an iPad version, WatchKit extensions and continuous work to enhance the application on all devices and build new features.</li>
 <li>Developing and maintaining the other musical applications of DJiT.</li>
-<li>Researching for yet unreleased projects, in various fields of programming.</li></ul></p>"
+<li>Researching for unreleased projects, in various fields of programming.</li></ul></p>"
     key_technologies:
       - "Swift"
       - "Objective-C"
@@ -110,6 +111,6 @@ hobbies:
   - title:
     description: "Programming for several ongoing projects."
   - title:
-    description: "Co-founder and host of the audio webshow Poligeek, speaking about politics and high-tech (in standby since March 2013). Poligeek reached a regular audience of 10 000 downloads per issue."
+    description: "Co-founder and host of the <a href=\"http://poligeek.fr\">audio webshow Poligeek</a>, speaking about politics and high-tech since 2010. Poligeek reached a regular audience of 10 000 downloads per issue."
   - title: "Sports"
     description: "Running (participated in trail running as well as road running races, up to 50 km).<br/>Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)."

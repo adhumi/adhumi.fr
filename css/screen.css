@@ -74,7 +74,7 @@ article.post header {
 }
 
 article.post header h1 a.back:before {
-  content: "<";
+  content: "←";
   width: 1.1em;
   margin-left: -1.1em;
   display: inline-block;
@@ -97,6 +97,23 @@ article.post .content {
   margin-bottom: 5em;
 }
 
+@media (max-width:576px){
+  article.post .content h1:before {
+    width: 0.75em;
+    margin-left: -0.75em;
+  }
+  
+  article.post header h1 a.back:before {
+    content: "";
+  }
+}
+
+@media (max-width:800px){
+  article.post header h1 a.back:before {
+    font-size: 0.8em;
+  }
+}
+
 /* Teaching */
 
 .teaching {
@@ -115,6 +132,10 @@ article.post .content {
 
 header.category {
   margin: 6em 0 6em 0;
+}
+
+.talks-abstracts img {
+  margin-bottom: 0.5em;
 }
 
 .recipes-abstracts article {
@@ -166,4 +187,10 @@ header.category {
 .resume .side h1 {
   font-size: 1em;
   font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.resume .side .resume-section-emoji {
+  text-align: center;
+  font-size: 3em;
 }

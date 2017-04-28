@@ -5,10 +5,11 @@ layout: default
 <div class="container resume">
   <section>
     <div class="row">
-      <div class="col-2 side">
+      <div class="col-md-2 side">
         <h1 class="text-muted">Work Experience</h1>
+        <p class="resume-section-emoji hidden-sm-down">👨🏻‍💻</p>
       </div>
-      <div class="col-10 main">
+      <div class="col main">
   			{% for work in site.data.resume.work %}
   			<article>
   				<h2>{{ work.position_title }} @ <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
@@ -27,10 +28,11 @@ layout: default
   
   <section>
     <div class="row">
-      <div class="col-2 side">
+      <div class="col-md-2 side">
         <h1 class="text-muted">Skills</h1>
+        <p class="resume-section-emoji hidden-sm-down">🛠</p>
       </div>
-      <div class="col-10 main">
+      <div class="col main">
   			{% for section in site.data.resume.skills %}
   			<h2>{{ section.section_name }}</h2>
   			<ul>
@@ -45,10 +47,11 @@ layout: default
 
   <section>  
     <div class="row">
-      <div class="col-2 side">
+      <div class="col-md-2 side">
         <h1 class="text-muted">Education</h1>
+        <p class="resume-section-emoji hidden-sm-down">🎓</p>
       </div>
-      <div class="col-10 main">
+      <div class="col main">
   			{% for education in site.data.resume.education %}
   			<article>
   				<h2>{{ education.curiculum }} @ <a href="{{ education.university_url }}">{{ education.university }}</a></h2>
@@ -64,10 +67,11 @@ layout: default
   
   <section>
     <div class="row">
-      <div class="col-2 side">
+      <div class="col-md-2 side">
         <h1 class="text-muted">Hobbies</h1>
+        <p class="resume-section-emoji hidden-sm-down">🏃🏻</p>
       </div>
-      <div class="col-10 main">
+      <div class="col main">
   			{% for hobbie in site.data.resume.hobbies %}
   				{% if hobbie.title %}<h2>{{ hobbie.title }}</h2>{% endif %}
   				<p>{{ hobbie.description }}</p>
