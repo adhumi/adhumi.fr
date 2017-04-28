@@ -128,3 +128,39 @@ header.category {
 .recipe .card {
   margin-bottom: 2em;
 }
+
+/* Resume */
+
+.resume section {
+  margin-top: 4em;
+}
+
+.resume section:last-child {
+  margin-bottom: 4em;
+}
+
+.resume section ul:last-child, .resume section .main>p:last-child, .resume section .main article:last-child>p:last-child {
+  margin-bottom: 0;
+}
+
+.resume .main {
+  border-left: 1px solid #bbbbbb;
+}
+
+.resume .main article {
+  margin-bottom: 2em;
+}
+
+.resume .main article:last-child {
+  margin-bottom: 0;
+}
+
+.resume .main h2 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.resume .side h1 {
+  font-size: 1em;
+  font-weight: 600;
+}
