@@ -3,15 +3,16 @@ layout: 	post
 section:	blog
 title:  	"Objective-C coding styles"
 date:  		2014-05-22 16:57:51
+excerpt_separator:  "<!--more-->"
 ---
 
 Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
 
 However, there are guidelines that reference best practices, including about formatting that is missing in Apple's official documentation. In this post, I will highlight topics that sounds particularly pertinents to me. It can be considered as *my* guidelines for Objective-C code formatting and will be formalized soon in a Github repository.
 
----
+<!--more-->
 
-## [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide)
+# [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide)
 The iOS development team of *The New York Times* formalized its coding conventions in a Github repo. It is a great document, that covers a lot of syntax topics. I globally agree with this coding style. Here is a list of my favorite tips.
 
 ### Dot-notation syntax
@@ -136,9 +137,7 @@ Singleton objects should use a thread safe implementation for creating or gettin
 ### Xcode projects
 Each physical file should be kept in the project folder. Groups in Xcode may be reflected by folders in the file system. Source files should be grouped by types and modules for greater lisibility.
 
----
-
-## [Github's Coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
+# [Github's Coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
 
 Github's documentation is less complete than the NYTimes' one. It is considered as a subclass of Apple's official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html). It contains some interesting points of view.
 
@@ -188,9 +187,7 @@ You should use exceptions only to preserve from programmer error, for example to
 
 `NSError` should be passed as reference in methods that need to indicate errors.
 
----
-
-## [Google Objective-C style guide](https://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
+# [Google Objective-C style guide](https://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
 
 Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). In this guide too, I picked some interesting things.
 

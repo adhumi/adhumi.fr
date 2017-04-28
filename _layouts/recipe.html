@@ -2,48 +2,63 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}css/simplegrid.css">
+<article class="post recipe">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4"><a href="#" class="back" onclick="window.history.go(-1); return false;"></a>{{ page.title }}</h1>
+          <p><small class="text-muted">Published on {{ page.date | date_to_string }}.</small></p>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<div class="post">
-	<p><a href="/recipes">Recettes</a></p>
-	<h1 class="post-title">{{ page.title }}</h1>
-	<span class="post-date">Published on {{ page.date | date_to_string }}</span>
+  <div class="container content">
+    <div class="row">
+      <div class="col">
 
-	<div class="social-buttons">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="adhumi" data-related="adhumi" data-count="none" data-dnt="true">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	</div>
-
-
-	<div class="steps">
-		{% for step in page.steps %}
-			<p>{{ step.title | markdownify | remove: '<p>' | remove: '</p>' }} : {{ step.duration | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-		{% endfor %}
-	</div>
-
-	<div class="col-2-3">
-		<div class="ingredients">
-			<h3>Ingrédients{% if page.quantity %} ({{ page.quantity }}){% endif %}</h3>
-			<ul>
-				{% for ingredient in page.ingredients %}
-					<li>{{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+        			<ul class="list-group list-group-flush">
+            		{% for step in page.steps %}
+        					<li class="list-group-item">{{ step.title | markdownify | remove: '<p>' | remove: '</p>' }} : {{ step.duration | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        				{% endfor %}
+        			</ul>
+            </div>
+          </div>
+          
+          <div class="col-sm-8">
+            <div class="card">
+              <div class="card-header">
+                Ingrédients{% if page.quantity %} ({{ page.quantity }}){% endif %}
+              </div>
+        			<ul class="list-group list-group-flush">
+        				{% for ingredient in page.ingredients %}
+        					<li class="list-group-item">{{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        				{% endfor %}
+        			</ul>
+            </div>
+          </div>
+        </div>
 	
-	<div class="clear"></div>
+      	<div class="clear"></div>
 	
-  	{{ content }}
+        	{{ content }}
 	
-	{% if page.pairing_drinks %}
-	<p class="box">
-		Boisson conseillée : {{ page.pairing_drinks }}
-	</p>
-	{% endif %}
+      	{% if page.pairing_drinks %}
+      	<p class="box">
+      		Boisson conseillée : {{ page.pairing_drinks }}
+      	</p>
+      	{% endif %}
 	
-	{% if page.pairing_food %}
-	<p class="box">
-		En accompagnement : {{ page.pairing_food }}
-	</p>
-	{% endif %}
-</div>
+      	{% if page.pairing_food %}
+      	<p class="box">
+      		En accompagnement : {{ page.pairing_food }}
+      	</p>
+      	{% endif %}
+      </div>
+    </div>
+  </div>
+</article>

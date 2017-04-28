@@ -2,89 +2,77 @@
 layout: default
 ---
 
-<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}css/resume.css">
-<link rel="stylesheet" href="{{ site.baseurl }}css/octicons/octicons.css">
+<div class="container resume">
+  <section>
+    <div class="row">
+      <div class="col-2 side">
+        <h1 class="text-muted">Work Experience</h1>
+      </div>
+      <div class="col-10 main">
+  			{% for work in site.data.resume.work %}
+  			<article>
+  				<h2>{{ work.position_title }} @ <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
+  				{% if work.end_date %}
+  				<small>{{ work.start_date | date: "%B %Y"}} to {{ work.end_date | date: "%B %Y"}} – {{ work.location }}</small>
+  				{% else %}
+  				<small>Since {{ work.start_date | date: "%B %Y"}} – {{ work.location }}</small>
+  				{% endif %}
+  				{{ work.description }}
+  				<p>Technologies: <em>{{ work.key_technologies | array_to_sentence_string }}.</em></p>
+  			</article>
+  			{% endfor %}
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="row">
+      <div class="col-2 side">
+        <h1 class="text-muted">Skills</h1>
+      </div>
+      <div class="col-10 main">
+  			{% for section in site.data.resume.skills %}
+  			<h2>{{ section.section_name }}</h2>
+  			<ul>
+  				{% for skill in section.list %}
+  				<li>{{ skill.name }}: <em>{{ skill.description }}</em></li>
+  				{% endfor %}
+  			</ul>
+  			{% endfor %}
+      </div>
+    </div>
+  </section>
 
-<div id="cv">
-	<div id="mainArea">
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
+  <section>  
+    <div class="row">
+      <div class="col-2 side">
+        <h1 class="text-muted">Education</h1>
+      </div>
+      <div class="col-10 main">
+  			{% for education in site.data.resume.education %}
+  			<article>
+  				<h2>{{ education.curiculum }} @ <a href="{{ education.university_url }}">{{ education.university }}</a></h2>
+  				<small>Graduated in {{ education.end_date | date: "%B %Y"}} – {{ education.location }}</small>
+  				{{ education.description }}
 
-			<div class="sectionContent">
-				{% for work in site.data.resume.work %}
-				<article>
-					<h2>{{ work.position_title }} @ <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
-					{% if work.end_date %}
-					<p class="subDetails">{{ work.start_date | date: "%B %Y"}} to {{ work.end_date | date: "%B %Y"}} – {{ work.location }}</p>
-					{% else %}
-					<p class="subDetails">Since {{ work.start_date | date: "%B %Y"}} – {{ work.location }}</p>
-					{% endif %}
-					{{ work.description }}
-					<p>Technologies: <em>{{ work.key_technologies | array_to_sentence_string }}.</em></p>
-				</article>
-				{% endfor %}
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Skills</h1>
-			</div>
-
-
-			<div class="sectionContent">
-				{% for section in site.data.resume.skills %}
-				<h3>{{ section.section_name }}</h3>
-				<ul>
-					{% for skill in section.list %}
-					<li>{{ skill.name }}: <em>{{ skill.description }}</em></li>
-					{% endfor %}
-				</ul>
-				{% endfor %}
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-
-			<div class="sectionContent">
-				{% for education in site.data.resume.education %}
-				<article>
-					<h2>{{ education.curiculum }} @ <a href="{{ education.university_url }}">{{ education.university }}</a></h2>
-					<p class="subDetails">Graduated in {{ education.end_date | date: "%B %Y"}} – {{ education.location }}</p>
-					{{ education.description }}
-
-					<p>Followed topics: <em>{{ education.key_teachings | array_to_sentence_string }}.</em></p>
-				</article>
-				{% endfor %}
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Hobbies</h1>
-				</div>
-
-				<div class="sectionContent">
-				{% for hobbie in site.data.resume.hobbies %}
-					{% if hobbie.title %}<h3>{{ hobbie.title }}</h3>{% endif %}
-					<p>{{ hobbie.description }}</p>
-				{% endfor %}
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
-	</div>
+  				<p>Followed topics: <em>{{ education.key_teachings | array_to_sentence_string }}.</em></p>
+  			</article>
+  			{% endfor %}
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="row">
+      <div class="col-2 side">
+        <h1 class="text-muted">Hobbies</h1>
+      </div>
+      <div class="col-10 main">
+  			{% for hobbie in site.data.resume.hobbies %}
+  				{% if hobbie.title %}<h2>{{ hobbie.title }}</h2>{% endif %}
+  				<p>{{ hobbie.description }}</p>
+  			{% endfor %}
+      </div>
+    </div>
+  </section>
 </div>

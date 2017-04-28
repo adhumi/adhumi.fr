@@ -1,0 +1,39 @@
+---
+layout: 	recipe
+section:	recipe
+title:  	"Buns"
+date:  		2017-01-13 10:00:00
+steps:
+  - title: 			"Temps de cuisson"
+    duration: 		"20 minutes"
+quantity: 		"4 pains"
+ingredients:
+  - "600g de farine"
+  - "45g de beurre + 60g pour mettre sur les pains"
+  - "2 petits œufs"
+  - "350 mL d’eau tiède"
+  - "2 cuillerée à café de sel"
+  - "75g de sucre"
+  - "2 sachets de levure boulangère"
+  - "Graines de tournesol, pavot ou sésame à votre convenance"
+---
+
+Tout mélanger dans le saladier.
+
+Une fois une pâte bien homogène obtenue, la couvrir avec du film plastique et/ou un torchon, et laisser monter à température ambiante pendant au moins une heure.
+
+Une fois que la pâte a doublée de volume (sinon laissez reposer encore), retravailler la avec un peu de farine pour qu’elle n’accroche plus.
+
+Préchauffer le four à 190 °c.
+
+Découper en 4 boules de taille égale.
+
+Faire fondre les 43 g de beurre et brosser le dessus des pains de beurre fondu.
+
+Rajouter si vous le souhaitez des grains de sésame, pavot, etc.
+
+Faire cuire entre 15 et 18 minutes les pains.
+
+Sortez les pains du four.
+
+Rebrossez les avec du beurre fondu avant de servir.
