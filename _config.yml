@@ -12,7 +12,7 @@ description:      'Hi! I am an iOS developer from Paris, France. I craft code at
 url:              http://adhumi.fr
 baseurl:          '/'
 paginate:         5
-credits:          Handmade with Jekyll and <3
+credits:          Crafted with <3 by adhumi
 emoji:            🚂
 
 author:

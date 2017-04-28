@@ -48,6 +48,9 @@ header .navbar-nav a:hover {
 
 footer.emoji {
   margin-bottom: 2em;
+  cursor: default;
+  text-align: center;
+  color: #bbb;
 }
 
 /* Index */
