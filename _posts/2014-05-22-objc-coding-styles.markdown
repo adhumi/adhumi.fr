@@ -187,9 +187,9 @@ You should use exceptions only to preserve from programmer error, for example to
 
 `NSError` should be passed as reference in methods that need to indicate errors.
 
-# [Google Objective-C style guide](https://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
+# [Google Objective-C style guide](https://google.github.io/styleguide/objcguide.xml)
 
-Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). In this guide too, I picked some interesting things.
+Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](https://google.github.io/styleguide/cppguide.html). In this guide too, I picked some interesting things.
 
 ### Line length
 The maximum line length for Objective-C should be 100 colums. You may set Xcode to display a visual limit in text editor. *Please note that it is corresponding to the size of a text window with inspectors displayed on both side and the splitter view in the center. *

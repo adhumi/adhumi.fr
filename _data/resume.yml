@@ -37,7 +37,7 @@ work:
 <p>On a team of five developers, I was in charge of:
 <ul><li>Developing edjing and edjing Pro on iOS. This includes the development of an iPad version, WatchKit extensions and continuous work to enhance the application on all devices and build new features.</li>
 <li>Developing and maintaining the other musical applications of DJiT.</li>
-<li>Researching for unreleased projects, in various fields of programming.</li></ul></p>"
+<li>Researching for unreleased projects, in various fields of programming.</li></ul>"
     key_technologies:
       - "Swift"
       - "Objective-C"
