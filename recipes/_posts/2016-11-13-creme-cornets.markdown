@@ -4,9 +4,9 @@ section:	recipe
 title:  	"Crème à cornets"
 date:  		2016-11-13 10:00:00
 steps:
-  - title: 			"Temps de préparation"
+  - title: 			"Préparation"
     duration: 		"10 minutes"
-  - title: 			"Temps de cuisson"
+  - title: 			"Cuisson"
     duration: 		"5 minutes"
 ingredients:
   - "0,5 L de lait"

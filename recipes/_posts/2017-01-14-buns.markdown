@@ -4,7 +4,7 @@ section:	recipe
 title:  	"Buns"
 date:  		2017-01-13 10:00:00
 steps:
-  - title: 			"Temps de cuisson"
+  - title: 			"Cuisson"
     duration: 		"20 minutes"
 quantity: 		"4 pains"
 ingredients:

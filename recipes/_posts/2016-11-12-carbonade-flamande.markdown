@@ -4,9 +4,9 @@ section:		recipe
 title:  		"Carbonade flamande"
 date:  			2016-11-12 16:57:51
 steps:
-  - title: 			"Temps de préparation"
+  - title: 			"Préparation"
     duration: 		"30 minutes"
-  - title: 			"Temps de cuisson"
+  - title: 			"Cuisson"
     duration: 		"3 heures minimum"
 quantity: 		"4 personnes"
 ingredients:

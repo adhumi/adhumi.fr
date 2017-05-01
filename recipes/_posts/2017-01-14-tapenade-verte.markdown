@@ -4,7 +4,7 @@ section:	recipe
 title:  	"Tapenade verte"
 date:  		2017-01-13 10:00:00
 steps:
-  - title: 			"Temps de préparation"
+  - title: 			"Préparation"
     duration: 		"10 minutes"
 quantity: 		"~500g"
 ingredients:

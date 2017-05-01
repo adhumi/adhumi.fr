@@ -4,9 +4,9 @@ section:	recipe
 title:  	"Biscuits champêtres"
 date:  		2016-11-07 10:00:00
 steps:
-  - title: 			"Temps de préparation"
+  - title: 			  "Préparation"
     duration: 		"10 minutes"
-  - title: 			"Temps de cuisson"
+  - title: 			  "Cuisson"
     duration: 		"15 à 20 minutes"
 ingredients:
   - "160g de farine"

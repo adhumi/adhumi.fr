@@ -4,9 +4,9 @@ section:	recipe
 title:  	"Feuilletés à la feta"
 date:  		2016-11-13 10:00:00
 steps:
-  - title: 			"Temps de préparation"
+  - title: 			"Préparation"
     duration: 		"30 minutes"
-  - title: 			"Temps de cuisson"
+  - title: 			"Cuisson"
     duration: 		"10 minutes"
 quantity: 		"6 personnes"
 ingredients:
