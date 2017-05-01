@@ -24,7 +24,7 @@ github:
   repo:           https://github.com/adhumi/adhumi.fr
 
 # Exclude
-exclude:          [vendor, readlist.md, validate.sh]
+exclude:          [vendor, readlist.md]
 
 # SEO
 seo-description:  'I am an iOS developer from Paris, France. I craft code at Trainline Europe (Captain Train) and teach iOS development to students at UPMC.'
@@ -33,4 +33,3 @@ seo-keywords:     'developer, objective-c, swift, apple, ios, edjing, captain tr
 # Gems
 gems:
   - jekyll-paginate
-  - jekyll-github-metadata

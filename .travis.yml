@@ -1,13 +1,11 @@
 sudo: false
-language: ruby
-rvm:
-  - 2.1
-script: ./validate.sh
 
-branches:
-  only:
-    - gh-pages
-    - /pages-(.*)/
+language: ruby
+
+rvm:
+  - 2.3.1
+  
+script: make test
 
 env:
   global:
