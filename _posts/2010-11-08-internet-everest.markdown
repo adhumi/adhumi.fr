@@ -6,7 +6,7 @@ date:   	2010-11-08 16:57:51
 excerpt_separator:  "<!--more-->"
 ---
 
-Tout le monde a finit par le savoir. Il y a quelques jours, la société de téléphonie népalaise <a href="http://www.ncell.com.np/" rel="external">Ncell</a>, filiale du groupe suédois <a href="http://www.teliasonera.com/" rel="external">TeliaSonera</a>, a annoncé avoir couvert en réseau 3G le sommet de l’Everest (8848 mètres). Les ingénieurs de la firme ont installé 8 antennes relais (dont 4 alimentées par des panneaux solaires), la plus haute se trouvant à 5164 mètres près du village de Gorakshep.
+Tout le monde a finit par le savoir. Il y a quelques jours, la société de téléphonie népalaise Ncell, filiale du groupe suédois <a href="http://www.teliasonera.com/" rel="external">TeliaSonera</a>, a annoncé avoir couvert en réseau 3G le sommet de l’Everest (8848 mètres). Les ingénieurs de la firme ont installé 8 antennes relais (dont 4 alimentées par des panneaux solaires), la plus haute se trouvant à 5164 mètres près du village de Gorakshep.
 
 <!--more-->
 

@@ -14,7 +14,7 @@ Pour rendre votre podcast disponible, les fichiers audio doivent d’abord être
 
 La plupart des CMS de blogs forment des flux RSS compatibles avec les contraintes des podcasts, mais il manque toujours certaines informations. Le mieux est donc de créer "à la main" ce flux.
 
-Pour ça, Apple fournit une bonne documentation <a href="http://www.apple.com/fr/itunes/podcasts/specs.html" rel="external">sur son site</a>.
+Pour ça, Apple fournit une bonne documentation <a href="https://itunespartner.apple.com/fr/podcasts/overview" rel="external">sur son site</a>.
 
 <strong>En pratique, ça se passe de la façon suivante :</strong>
 
