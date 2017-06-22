@@ -6,7 +6,7 @@ date:  		2014-05-22 16:57:51
 excerpt_separator:  "<!--more-->"
 ---
 
-Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
+Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
 
 However, there are guidelines that reference best practices, including about formatting that is missing in Apple's official documentation. In this post, I will highlight topics that sounds particularly pertinents to me. It can be considered as *my* guidelines for Objective-C code formatting and will be formalized soon in a Github repository.
 
@@ -189,7 +189,7 @@ You should use exceptions only to preserve from programmer error, for example to
 
 # [Google Objective-C style guide](https://google.github.io/styleguide/objcguide.xml)
 
-Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)and Google's [Open Source C++ Style Guide](https://google.github.io/styleguide/cppguide.html). In this guide too, I picked some interesting things.
+Google's style guide is the most complete and accomplished proposal. It is based on Apple's [Cocoa Coding Guidelines](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)and Google's [Open Source C++ Style Guide](https://google.github.io/styleguide/cppguide.html). In this guide too, I picked some interesting things.
 
 ### Line length
 The maximum line length for Objective-C should be 100 colums. You may set Xcode to display a visual limit in text editor. *Please note that it is corresponding to the size of a text window with inspectors displayed on both side and the splitter view in the center. *
