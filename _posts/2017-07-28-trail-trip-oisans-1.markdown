@@ -2,28 +2,28 @@
 layout: 	post
 section:	blog
 title:  	"Trail trip Oisans : préparation"
-date:  		2017-07-30 00:00:00
+date:  		2017-07-31 00:00:00
 excerpt_separator:  "<!--more-->"
 ---
 
-_Quelques jours de liberté pendant l’été (femme et enfants en vacances), pas de vacances en montagne prévues, que faire ?_
+_Quelques jours de liberté pendant l’été (tout le reste de la famille en vacances), pas de vacances en montagne prévues, que faire ?_
 
 <!--more-->
 
 C’est globalement ce qui m’a animé quand j’ai réservé un aller-retour en train-couchette pour Briançon — le dernier pour les Alpes. Départ le samedi soir et retour le mardi matin, à l’heure pour aller bosser. 
 
-Maintenant, il va falloir trouver de quoi s’occuper pendant ces deux jours. Et pourquoi pas du trail ?
+Maintenant, il va falloir trouver de quoi s’occuper pendant ces deux jours. Et pourquoi pas du trail ? 😇
 
 # Départ et arrivée 
-Trouver un (bon) parcours, est toujours assez complexe. Quand on a que deux jours et qu’on ne veut pas faire un aller-retour, ça l’est encore plus. 
+Trouver un (bon) parcours est toujours assez complexe. Quand on a que deux jours et qu’on ne veut pas faire un aller-retour, ça l’est encore plus. 
 
 Le train pour Briançon fait une série d’arrêts avant sa destination finale (Embrun, Montdauphin-Guillestre, L'argentière-Les-Écrins…), ce qui laisse une palette de possibilités pour les points de départ et d’arrivée. 
 
-Il y a Embrun, où il serait chouette d’atterrir parce que Lucie et Antoine y habitent et que ça serait l'occasion de les voir. 
+Embrun est un bon point d'arrivée, parce que Lucie et Antoine y habitent et que ça serait l'occasion de les voir. 
 
-Le Queyras est intéressant, d’autant que je n’y ai jamais vraiment mis les pieds. Mais un peu trop loin d’Embrun. 
+Le Queyras est intéressant, d’autant que je n’y ai jamais vraiment mis les pieds, mais pas facile de relier Embrun de agréablement depuis ce massif. 
 
-Il y a quelques années, j’ai randonné sur le tour de l’Oisans et ai particulièrement apprécié les paysages. Pourquoi pas, donc. 
+Il y a quelques années, j’ai randonné sur le tour de l’Oisans et ai particulièrement apprécié les paysages. Pourquoi ne pas partir sur ce secteur ? 
 
 [<img src="/assets/oisans/oisans.jpg" class="img-fluid" alt="E. D'Ascoli Photographies"/>](https://www.flickr.com/photos/jetef2/9434136677/sizes/l)
 

@@ -81,8 +81,18 @@ article.post header h1 a.back:before {
   color: #ccc;
 }
 
-article.post .content h1 {
+article.post .content h1, article.post .content h2, article.post .content h3 {
   margin: 2em 0 0.5em 0;
+}
+
+article.post .content h2 {
+  font-size: 1.5em;
+}
+
+article.post .content h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #888;
 }
 
 article.post .content h1:before {
@@ -95,6 +105,28 @@ article.post .content h1:before {
 
 article.post .content {
   margin-bottom: 5em;
+}
+
+article.post .content table {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+article.post .content table tr {
+  border-bottom: 1px solid #EEE;
+}
+
+article.post .content table thead {
+  border-bottom: 2px solid #DDD;
+  font-weight: normal;
+}
+
+article.post .content table tr:last-child {
+  border-bottom: 0px;
+}
+
+article.post .content table tr td {
+  padding: 5px 0 5px 0;
 }
 
 @media (max-width:576px){
