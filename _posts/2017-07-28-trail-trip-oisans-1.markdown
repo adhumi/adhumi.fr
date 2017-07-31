@@ -77,6 +77,8 @@ La difficulté ici réside dans plusieurs points :
 - La montagne est imprévisible, il faut prévoir le matériel de sécurité nécessaire.
 - Une nuit en refuge, donc repas et hébergement compris, mais requiert un peu de matériel (drap de couchage, t-shirt propre, etc.)
 
+Au total, environ 2 kg de matériel (hors vivres de course et eau).
+
 ## Vêtements
 
 Je compte partir directement en tenue de course à pieds : un short, un t-shirt ou débardeur (selon la météo) et une bonne paire de chaussures.
