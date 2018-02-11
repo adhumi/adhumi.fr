@@ -150,7 +150,7 @@ La nourriture en trail, c’est traître. Le moindre faux-pas peut vous renvoyer
 
 J’ai travaillé ma stratégie nutritionnelle pendant ma préparation (et ces derniers mois/années), je sais précisément ce qui me convient et avec quels aliments je ne prend pas de risques. 
 
-Je partirai donc avec des gels [Aptonia 700](https://www.aptonia.fr/gel-energetique-ultra-gel-700-cola-4x32g-id_8358608) et des [Cliff Bars](http://www.clifbar.fr). Je profiterai aussi des passages dans différents refuges et auberges pour prendre une soupe, un plat de pâtes et/ou un Coca. 
+Je partirai donc avec des gels Aptonia 700 (trouvables chez Décathlon) et des [Cliff Bars](http://www.clifbar.fr). Je profiterai aussi des passages dans différents refuges et auberges pour prendre une soupe, un plat de pâtes et/ou un Coca. 
 
 Les recommandations font état d’un besoin en sucres de 60 g par heure. Je sais que je suis un peu en dessous de ces besoin (et que j'ai de la réserve) donc je prévois de partir avec 45 g par heure de course prévue et je m’appuierai sur les arrêts intermédiaires pour consommer d'autres aliments si le besoin s'en fait sentir (en cas de saturation sucrée, par exemple). 
 
