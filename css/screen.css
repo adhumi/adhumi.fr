@@ -160,6 +160,37 @@ article.post .content table tr td {
   margin-top: 1em;
 }
 
+.teaching ul.intervention-documents {
+  padding:0;
+}
+
+.teaching ul.intervention-documents a {
+  display: block;
+  padding: 0;
+  border-bottom: 0;
+}
+
+.teaching ul.intervention-documents a:hover {
+  background: #f8f8f8;
+  display: block;
+  border-bottom: 0;
+}
+
+.teaching ul.intervention-documents li {
+  list-style-type: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.teaching ul.intervention-documents li:before {
+	content: '→';
+  margin-right: 5px;
+}
+
+.teaching ul.intervention-documents .icon-file {
+  margin-left: 8px;
+}
+
 /* Category */
 
 header.category {

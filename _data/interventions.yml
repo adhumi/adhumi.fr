@@ -1,11 +1,13 @@
 - cursus: "L3 DANT"
   year: "2016-2017"
   school: "UPMC"
+  school-logo: "logo-upmc.png"
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
   identifier: dant_2017
+  wip: false
 
   external_resources:
     - title: "Raccourcis clavier d'Xcode"
@@ -54,14 +56,16 @@
         - name: "Présentation du projet"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2016-2017/Projet/Projet.pdf"
 
-- cursus: "L3 DANT"
+- cursus: "Licence 3 DANT"
   year: "2015-2016"
   school: "UPMC"
+  school-logo: "logo-upmc.png"
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   licence: "Basé sur le projet <a href=\"http://swifteducation.github.io\">Swift Education</a> sous licence Creative Commons Attribution-Non Commercial-Share Alike 4.0 International."
   identifier: dant_2016
+  wip: false
 
   external_resources:
     - title: "Xcode 6.4 / Swift 1.2"
@@ -120,13 +124,15 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2015-2016/Projet/CahierDesCharges.pdf"
 
 
-- cursus: "L3 DANT"
+- cursus: "Licence 3 DANT"
   year: "2014-2015"
   school: "UPMC"
+  school-logo: "logo-upmc.png"
   name: "Nouvelles technologies du web (LI385)"
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Objective-C."
   identifier: dant_2015
+  wip: false
 
   sections:
     - name: "Cours"
