@@ -4,56 +4,52 @@ layout: default
 
 <div class="container teaching">
   <div class="row">
-      <div class="col">
+      <div class="col" id="accordion" role="tablist" aria-multiselectable="true">
         {% for intervention in site.data.interventions %}
         <div class="card">
-          <div class="card-header">
-            <span class="md-auto">{{ intervention.school }}, {{ intervention.cursus }}</span>
-            <span class="badge badge-success">{{ intervention.year }}</span>
+          <div class="card-header" id="heading{{ forloop.index }}">
+            <h5 class="md-auto">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+                {{ intervention.cursus }} <small>{{ intervention.year }}</small>
+                <img src="/assets/{{ intervention.school-logo }}" class="float-right" alt="{{ intervention.school }}" />
+              </a>
+            </h5>
+            {% if intervention.wip %}<span class="badge badge-pill badge-success">En cours</span>{% endif %}
           </div>
-          <div class="card-block">
-            <h2 class="card-title">{{ intervention.name }}{% if intervention.githubProjectURL %} <a href="{{ intervention.githubProjectURL }}"><span class="mega-octicon octicon-mark-github"></span></a>{% endif %}</h2>
-            <p class="card-text lead">{{ intervention.abstract }}</p>
-            {% if intervention.licence %}<p class="card-text"><small class="text-muted">{{ intervention.licence }}</small></p>{% endif %}
-          </div>
+          <div id="collapse{{ forloop.index }}" class="collapse{% if forloop.index == 1 %} show{% endif %}" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+            <div class="card-block">
+              <h2 class="card-title">{{ intervention.name }}</h2>
+              <p class="card-text lead">{{ intervention.abstract }}</p>
+              {% if intervention.licence %}<p class="card-text"><small class="text-muted">{{ intervention.licence }}</small></p>{% endif %}
+            </div>
           
-          
-          {% if intervention.sections %}
-          <div class="card-block">
-            <ul class="nav nav-tabs" role="tablist">
-              {% for section in intervention.sections %}
-              <li class="nav-item">
-                <a class="nav-link{% if forloop.index == 1 %} active{% endif %}" data-toggle="tab" href="#{{ intervention.identifier }}_{{ forloop.index }}" role="tab">{{ section.name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          
-            <div class="tab-content">
+            {% if intervention.sections %}
+            <div class="card-block">
             {% for section in intervention.sections %}
-            <div class="tab-pane{% if forloop.index == 1 %} active{% endif %}" id="{{ intervention.identifier }}_{{ forloop.index }}" role="tabpanel">
-              <div class="list-group">
-                {% for subsection in section.content %}
-                  <a class="list-group-item list-group-item-action justify-content-between"{% if subsection.link %} href="{{ subsection.link }}"{% endif %}>
-                    {{ subsection.name }}
-                    <span><span class="octicon octicon-cloud-download"></span></span>
+              <h4>{{ section.name }}</h4>
+              <ul class="intervention-documents">
+              {% for subsection in section.content %}
+                  <a{% if subsection.link %} href="{{ subsection.link }}"{% endif %}>
+                    <li>
+                      {{ subsection.name }} <i class="fa fa-file-{{ subsection.link | split: '/' | last | split: '.' | last }}-o icon-file" aria-hidden="true"></i>
+                    </li>
                   </a>
-                {% endfor %}
-              </div>
-            </div>
-            {% endfor %}
-            </div>
-          </div>
-          {% endif %}
-          
-          {% if intervention.external_resources %}
-          <div class="card-block">
-            <ul>
-              {% for external_resource in intervention.external_resources %}
-                <li>{% if external_resource.octicon %}<span class="octicon {{ external_resource.octicon }}"></span>  {% endif %}{% if external_resource.url %}<a href="{{ external_resource.url }}">{% endif %}{{ external_resource.title }}{% if external_resource.url %}</a>{% endif %}{% if external_resource.note %} <em>({{ external_resource.note }})</em>{% endif %}</li>
               {% endfor %}
-            </ul>
+              </ul>
+              {% endfor %}
+            </div>
+            {% endif %}
+          
+            {% if intervention.external_resources %}
+            <div class="card-block">
+              <ul>
+                {% for external_resource in intervention.external_resources %}
+                  <li>{% if external_resource.octicon %}<span class="octicon {{ external_resource.octicon }}"></span>  {% endif %}{% if external_resource.url %}<a href="{{ external_resource.url }}">{% endif %}{{ external_resource.title }}{% if external_resource.url %}</a>{% endif %}{% if external_resource.note %} <em>({{ external_resource.note }})</em>{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
         {% endfor %}
     </div>
