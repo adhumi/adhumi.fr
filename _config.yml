@@ -31,5 +31,5 @@ seo-description:  'I am an iOS developer from Paris, France. I craft code and le
 seo-keywords:     'developer, objective-c, swift, apple, ios, edjing, captain train'
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
