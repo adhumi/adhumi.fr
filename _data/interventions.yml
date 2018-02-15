@@ -23,6 +23,11 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP1/TP1.pdf"
         - name: "SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP1/SpaceAdventure.zip"
+    - name: "Projet"
+      octicon: "octicon-gist"
+      content:
+        - name: "Présentation du projet"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Projet/Projet.pdf"
 
 - cursus: "Licence 3 DANT"
   year: "2016-2017"
