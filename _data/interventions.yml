@@ -16,6 +16,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours1-20180213.pdf"
         - name: "2. Strings, Functions, Structures, Classes and inheritance"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours2-20180215.pdf"
+        - name: "3. Collections, loops, UIKit, Autolayout"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours3-20180220.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
