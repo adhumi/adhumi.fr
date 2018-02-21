@@ -36,6 +36,12 @@
       content:
         - name: "Présentation du projet"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Projet/Projet.pdf"
+          
+  external_resources:
+    - title: "Xcode 8.3.3"
+      note: "Version installée sur les machines de la salle de TP"
+      url: "https://download.developer.apple.com/Developer_Tools/Xcode_8.3.3/Xcode8.3.3.xip"
+      octicon: "octicon-file-zip"
 
 - cursus: "Licence 3 DANT"
   year: "2016-2017"
