@@ -31,6 +31,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP2/Flashlight.zip"
         - name: "WordCollage.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP2/WordCollage.zip"
+        - name: "TP3.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP3/TP3.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
