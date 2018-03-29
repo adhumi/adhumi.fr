@@ -18,6 +18,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours2-20180215.pdf"
         - name: "3. Collections, loops, UIKit, Autolayout"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours3-20180220.pdf"
+        - name: "4. Optionals, casting, guard, scope, UI workflows, view controllers lifecycle"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours4-20180329.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
@@ -33,6 +35,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP2/WordCollage.zip"
         - name: "TP3.pdf"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP3/TP3.pdf"
+        - name: "TP4.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP4/TP4.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
