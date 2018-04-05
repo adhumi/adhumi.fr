@@ -139,7 +139,7 @@ Each physical file should be kept in the project folder. Groups in Xcode may be 
 
 # [Github's Coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
 
-Github's documentation is less complete than the NYTimes' one. It is considered as a subclass of Apple's official [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html). It contains some interesting points of view.
+Github's documentation is less complete than the NYTimes' one. It is considered as a subclass of Apple's official [Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html). It contains some interesting points of view.
 
 ### Whitespaces
 Tabs may be used instead of spaces (configure your Xcode that way). You can use as many empty lines as you want to divide code into logical chunks.
