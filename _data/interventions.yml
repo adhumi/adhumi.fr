@@ -20,6 +20,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours3-20180220.pdf"
         - name: "4. Optionals, casting, guard, scope, UI workflows, view controllers lifecycle"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours4-20180329.pdf"
+        - name: "4. Protocols, App anatomy, MVC, Scroll views, Table views"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/Cours/Cours4-20180329.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
@@ -37,6 +39,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP3/TP3.pdf"
         - name: "TP4.pdf"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP4/TP4.pdf"
+        - name: "TP5.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2017-2018/TP/TP5/TP5.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
