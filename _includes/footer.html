@@ -3,7 +3,10 @@
     <div class="row">
       <div class="col">
         <p>{{ site.emoji }}</p>
-        <p><small>{{ site.credits }}</small></p>
+        <p>
+          <small>{{ site.credits }}</small><br/>
+          <small>Last built {{ site.time | date: "%B %-d at %k:%M" }}</small>
+        </p>
       </div>
     </div>
   </div>
