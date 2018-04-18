@@ -1,7 +1,7 @@
 ---
 layout:             talk
 section:            talks
-title:  	           "Test and distribute an iOS app with Gitlab CI"
+title:  	           "Localization done bien"
 date:               2017-11-09 19:00:00
 context:            Cocoaheads Paris
 context_url:        http://cocoaheads.fr
