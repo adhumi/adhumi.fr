@@ -2,7 +2,7 @@
 layout:             talk
 section:            talks
 title:  	           "Localization done bien"
-date:               2017-11-09 19:00:00
+date:               2018-04-12 19:00:00
 context:            Cocoaheads Paris
 context_url:        http://cocoaheads.fr
 document_url:       https://github.com/adhumi/talks/raw/master/2018-04-localization-done-bien/localization-done-bien.pdf
