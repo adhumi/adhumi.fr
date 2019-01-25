@@ -3,6 +3,9 @@ layout: 	recipe
 section:	recipe
 title:  	"Buns"
 date:  		2017-01-13 10:00:00
+illustration: 
+  url: /recipes/assets/buns.jpg
+  credits: '<a href="https://www.flickr.com/photos/martinb/6781888596">Martin Burns</a>'
 steps:
   - title: 			"Cuisson"
     duration: 		"20 minutes"

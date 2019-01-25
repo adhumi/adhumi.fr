@@ -3,6 +3,9 @@ layout: 		recipe
 section:		recipe
 title:  		"Carbonade flamande"
 date:  			2016-11-12 16:57:51
+illustration: 
+  url: /recipes/assets/carbonade-flamande.jpg
+  credits: '<a href="https://www.flickr.com/photos/ted_major/5331911328">Ted Major</a>'
 steps:
   - title: 			"Préparation"
     duration: 		"30 minutes"

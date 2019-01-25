@@ -202,12 +202,32 @@ header.category {
 }
 
 .recipes-abstracts article {
-  border-bottom: 1px solid #eee;
   margin: 1em 0 1em 0;
 }
 
 .recipes-abstracts article:last-child {
   border-bottom: 0px;
+}
+
+.recipes-abstracts h1.post-title {
+  margin-top: 0.5em;
+}
+
+@media (max-width:768px){
+  .recipes-abstracts h1.post-title {
+    margin-top: 0;
+  }
+}
+
+.recipe .illustration {
+  margin-bottom: 2em;
+}
+
+.recipe .illustration .credits {
+  text-align: right;
+  color: #bbb;
+  font-size: 0.7em;
+  text-decoration: none;
 }
 
 /* Recipe */

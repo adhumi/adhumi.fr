@@ -3,6 +3,9 @@ layout: 	recipe
 section:	recipe
 title:  	"Tapenade verte"
 date:  		2017-01-13 10:00:00
+illustration: 
+  url: /recipes/assets/tapenade-verte.jpg
+  credits: '<a href="https://www.flickr.com/photos/jenarrr/9402819450">Jen Arrr</a>'
 steps:
   - title: 			"Préparation"
     duration: 		"10 minutes"

@@ -3,6 +3,9 @@ layout: 	recipe
 section:	recipe
 title:  	"Feuilletés à la feta"
 date:  		2016-11-13 10:00:00
+illustration: 
+  url: /recipes/assets/feuilletes-feta.jpg
+  credits: Adrien Humilière
 steps:
   - title: 			"Préparation"
     duration: 		"30 minutes"
