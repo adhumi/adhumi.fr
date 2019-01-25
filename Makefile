@@ -1,4 +1,4 @@
-linstall:
+install:
 	@command -v ruby >/dev/null 2>&1 || { echo >&2 "I require ruby but it's not installed. Aborting."; exit 1; }
 	@command -v bundle >/dev/null 2>&1 || gem install bundler;
 	bundle install
