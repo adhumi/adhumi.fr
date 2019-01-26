@@ -8,7 +8,7 @@ layout: default
       <div class="row">
         <div class="col">
           <h1 class="display-4"><a href="{{ site.baseurl }}" class="back" onclick="window.history.go(-1); return false;"></a>{{ page.title }}</h1>
-          <p><small class="text-muted">Published on {{ page.date | date_to_string }}.</small></p>
+          <p><small class="text-muted">Published on {{ page.date | date_to_string }}</small></p>
         </div>
       </div>
     </div>
@@ -24,47 +24,43 @@ layout: default
             {% if page.illustration.credits %}<p class="credits">{{ page.illustration.credits }}</p>{% endif %}
         </div>
         {% endif %}
+      </div>
+    </div>
 
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-        			<ul class="list-group list-group-flush">
-            		{% for step in page.steps %}
-        					<li class="list-group-item">{{ step.title | markdownify | remove: '<p>' | remove: '</p>' }} : {{ step.duration | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-        				{% endfor %}
-        			</ul>
-            </div>
-          </div>
-          
-          <div class="col-sm-8">
-            <div class="card">
-              <div class="card-header">
-                Ingrédients{% if page.quantity %} ({{ page.quantity }}){% endif %}
-              </div>
-        			<ul class="list-group list-group-flush">
-        				{% for ingredient in page.ingredients %}
-        					<li class="list-group-item">{{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-        				{% endfor %}
-        			</ul>
-            </div>
-          </div>
-        </div>
-	
-      	<div class="clear"></div>
-	
-        	{{ content }}
-	
-      	{% if page.pairing_drinks %}
-      	<p class="box">
-      		Boisson conseillée : {{ page.pairing_drinks }}
-      	</p>
-      	{% endif %}
-	
-      	{% if page.pairing_food %}
-      	<p class="box">
-      		En accompagnement : {{ page.pairing_food }}
-      	</p>
-      	{% endif %}
+    <div class="row">
+      <div class="col-md-8 offset-md-4 steps">
+        <ul>
+          {% for step in page.steps %}
+            <li><em>{{ step.title | markdownify | remove: '<p>' | remove: '</p>' }}</em> {{ step.duration | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 ingredients">
+        <h3>Ingrédients{% if page.quantity %}<br/>({{ page.quantity }}){% endif %}</h3>
+        <ul>
+          {% for ingredient in page.ingredients %}
+            <li>{{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="col-md-8">
+        {{ content }}
+        
+        {% if page.pairing_drinks %}
+        <p class="box">
+          Boisson conseillée : {{ page.pairing_drinks }}
+        </p>
+        {% endif %}
+        
+        {% if page.pairing_food %}
+        <p class="box">
+          En accompagnement : {{ page.pairing_food }}
+        </p>
+        {% endif %}
       </div>
     </div>
   </div>
