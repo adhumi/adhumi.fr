@@ -1,4 +1,31 @@
 - cursus: "Licence 3 DANT"
+  year: "2018-2019"
+  school: "Sorbonne Université"
+  school-logo: "logo-sorbonne.png"
+  name: "Nouvelles technologies du web (LI385)"
+  githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
+  abstract: "Introduction à la programmation iOS avec Swift."
+  identifier: dant_2019
+  wip: true
+
+  sections:
+    - name: "Cours"
+      octicon: "octicon-mortar-board"
+      content:
+        - name: "Coming soon"
+          link: 
+    - name: "Travaux Pratiques"
+      octicon: "octicon-microscope"
+      content:
+        - name: "Coming soon"
+          link: 
+    - name: "Projet"
+      octicon: "octicon-gist"
+      content:
+        - name: "Coming soon"
+          link: 
+
+- cursus: "Licence 3 DANT"
   year: "2017-2018"
   school: "Sorbonne Université"
   school-logo: "logo-sorbonne.png"
