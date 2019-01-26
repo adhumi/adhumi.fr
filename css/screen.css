@@ -28,13 +28,13 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 
 /* Header */
 
-header nav {
-  border-bottom: 1px solid #eee;
-}
-
 header nav a:hover {
   border-bottom: 0px;
   text-decoration: none;
+}
+
+header .navbar-nav a {
+  margin-left: 0.8em;
 }
 
 header .navbar-nav a:hover {
