@@ -2,15 +2,14 @@ resume_subtitle: "iOS Developer"
 
 
 work:
-  - position_title: "iOS Engineer"
-    company: "Captain Train"
-    company_url: "http://www.captaintrain.com"
+  - position_title: "iOS lead"
+    company: "Brut."
+    company_url: "http://www.brut.media"
     location: "Paris, France"
-    start_date: "2015-12-14 09:00:00"
+    start_date: "2018-06-11 09:00:00"
     end_date:
-    description: "<p>Development and maintenance of the iOS app of Trainline Europe (formerly Captain Train).</p>"
+    description: "<p>Kicking-off Brut platform. Product definition and iOS development.</p>"
     key_technologies:
-      - "Objective-C"
       - "Swift"
       - "Cocoa Touch"
 
@@ -25,6 +24,30 @@ work:
     key_technologies:
       - "Swift"
       - "Objective-C"
+      - "Cocoa Touch"
+
+  - position_title: "Mobile team lead"
+    company: "Trainline (formerly Captain Train)"
+    company_url: "http://www.trainline.eu"
+    location: "Paris, France"
+    start_date: "2017-02-01 09:00:00"
+    end_date: "2018-06-08 09:00:00"
+    description: "<p>Development and maintenance of the iOS apps of Trainline Europe (formerly Captain Train) and Trainline UK.</p><p>Leading the mobile team of Paris office (up to 8 peoples including iOS, Android and QA engineers).</p><p>Leading an international squad accross Paris and London offices.</p>"
+    key_technologies:
+      - "Swift"
+      - "Objective-C"
+      - "Cocoa Touch"
+
+  - position_title: "iOS Engineer"
+    company: "Trainline (formerly Captain Train)"
+    company_url: "http://www.trainline.eu"
+    location: "Paris, France"
+    start_date: "2015-12-14 09:00:00"
+    end_date: "2017-01-31 09:00:00"
+    description: "<p>Development and maintenance of the iOS app of Trainline Europe (formerly Captain Train).</p>"
+    key_technologies:
+      - "Objective-C"
+      - "Swift"
       - "Cocoa Touch"
 
   - position_title: "iOS Developer"
@@ -113,4 +136,4 @@ hobbies:
   - title:
     description: "Co-founder and host of the <a href=\"http://poligeek.fr\">audio webshow Poligeek</a>, speaking about politics and high-tech since 2010. Poligeek reached a regular audience of 10 000 downloads per issue."
   - title: "Sports"
-    description: "Running (participated in trail running as well as road running races, up to 50 km).<br/>Cross-country skiing, for 25 years (participated in popular races, including La Transjurassienne, 70km, 4 times)."
+    description: "Running (participated in trail running as well as road running races, up to 80 km).<br/>Cross-country skiing for 28 years (participated in popular races, including La Transjurassienne, 76 km, 4 times)."
