@@ -12,13 +12,15 @@
     - name: "Cours"
       octicon: "octicon-mortar-board"
       content:
-        - name: "Coming soon"
-          link: 
+        - name: "1. Introduction to Swift, part 1"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Cours/Cours1-20190215.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
-        - name: "Coming soon"
-          link: 
+        - name: "TP1.pdf"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP1/TP1.pdf"
+        - name: "TP1 – SpaceAdventure.zip"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP1/SpaceAdventure.zip"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
