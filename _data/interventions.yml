@@ -14,18 +14,22 @@
       content:
         - name: "1. Introduction to Swift, part 1"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Cours/Cours1-20190215.pdf"
+        - name: "2. Introduction to Swift, part 2"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Cours/Cours2-20190222.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
-        - name: "TP1.pdf"
+        - name: "TP1"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP1/TP1.pdf"
         - name: "TP1 – SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP1/SpaceAdventure.zip"
+        - name: "TP2"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP2/TP2.pdf"
     - name: "Projet"
       octicon: "octicon-gist"
       content:
-        - name: "Coming soon"
-          link: 
+        - name: "Première partie"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Projet/project-part1.pdf"
 
 - cursus: "Licence 3 DANT"
   year: "2017-2018"
