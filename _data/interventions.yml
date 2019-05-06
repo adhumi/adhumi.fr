@@ -29,6 +29,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP2/TP2.pdf"
         - name: "TP3"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP3/TP3.pdf"
+        - name: "TP4"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP4/TP4.pdf"
         - name: "TP3 – Flashlight.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/TP/TP3/Flashlight.zip"
         - name: "TP3 – WordCollage.zip"
@@ -38,6 +40,8 @@
       content:
         - name: "Première partie"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Projet/project-part1.pdf"
+        - name: "Weather – Corrigé de la première partie"
+          link: "https://github.com/adhumi/Weather"
         - name: "Deuxième partie"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Projet/project-part2.pdf"
 
