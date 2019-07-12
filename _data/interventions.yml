@@ -6,7 +6,7 @@
   githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
   abstract: "Introduction à la programmation iOS avec Swift."
   identifier: dant_2019
-  wip: true
+  wip: false
 
   sections:
     - name: "Cours"
