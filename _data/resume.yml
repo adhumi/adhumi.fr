@@ -2,13 +2,19 @@ resume_subtitle: "iOS Developer"
 
 
 work:
-  - position_title: "iOS lead"
+  - position_title: "Mobile lead"
     company: "Brut."
     company_url: "http://www.brut.media"
     location: "Paris, France"
     start_date: "2018-06-11 09:00:00"
     end_date:
-    description: "<p>Kicking-off Brut platform. Product definition and iOS development.</p>"
+    description: "<p>First tech employee at Brut, I am in charge of the mobile apps. </p>
+<p>Tasks among others: 
+<ul><li>Product definition</li>
+<li>Define APIs with the backend team</li>
+<li>Build a team for both iOS and Android apps</li>
+<li>Create the iOS app from scratch</li>
+<li>Support the Android developers in their work</li></ul>"
     key_technologies:
       - "Swift"
       - "Cocoa Touch"
@@ -32,7 +38,7 @@ work:
     location: "Paris, France"
     start_date: "2017-02-01 09:00:00"
     end_date: "2018-06-08 09:00:00"
-    description: "<p>Development and maintenance of the iOS apps of Trainline Europe (formerly Captain Train) and Trainline UK.</p><p>Leading the mobile team of Paris office (up to 8 peoples including iOS, Android and QA engineers).</p><p>Leading an international squad accross Paris and London offices.</p>"
+    description: "<p>Development and maintenance of the iOS apps of Trainline Europe (formerly Captain Train) and Trainline UK.</p><p>Leading the mobile team of Paris office (up to 8 peoples including iOS, Android and QA engineers).</p><p>Leading an international squad across Paris and London offices.</p>"
     key_technologies:
       - "Swift"
       - "Objective-C"
@@ -51,12 +57,12 @@ work:
       - "Cocoa Touch"
 
   - position_title: "iOS Developer"
-    company: "DJiT"
-    company_url: "http://www.edjing.com"
+    company: "MWM"
+    company_url: "https://musicworldmedia.com"
     location: "Boulogne-Billancourt, France"
     start_date: "2012-09-10 09:00:00"
     end_date: "2015-11-13 18:00:00"
-    description: "<p>DJiT is an innovative start-up developing musical and social apps and hardware. It’s flagship application, edjing, is a leader in mix applications and reached 25 millions downloads in early 2015.</p>
+    description: "<p>MWM (formerly DJiT) is an innovative start-up developing musical and social apps and hardware. It’s flagship application, edjing, is a leader in mix applications and reached 25 millions downloads in early 2015.</p>
 <p>On a team of five developers, I was in charge of:
 <ul><li>Developing edjing and edjing Pro on iOS. This includes the development of an iPad version, WatchKit extensions and continuous work to enhance the application on all devices and build new features.</li>
 <li>Developing and maintaining the other musical applications of DJiT.</li>
@@ -88,13 +94,13 @@ skills:
   - section_name: "iOS & Mac Development"
     list:
       - name: "Objective-C"
-        description: "Strong knowledge, 3+ years of active practice"
+        description: "Strong knowledge, 7+ years of active practice"
       - name: "Swift"
-        description: "Strong knowledge, practicing since it’s release"
+        description: "Strong knowledge, practicing since it’s release in 2014"
       - name: "C"
         description: "Basic knowledge"
       - name: "Cocoa Touch"
-        description: "Strong knowledge, 3+ years of active practice"
+        description: "Strong knowledge, 7+ years of active practice"
       - name: "Cocoa"
         description: "Basic knowledge"
 
