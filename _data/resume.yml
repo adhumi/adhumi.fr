@@ -2,23 +2,6 @@ resume_subtitle: "iOS Developer"
 
 
 work:
-  - position_title: "Mobile lead"
-    company: "Brut."
-    company_url: "http://www.brut.media"
-    location: "Paris, France"
-    start_date: "2018-06-11 09:00:00"
-    end_date:
-    description: "<p>First tech employee at Brut, I am in charge of the mobile apps. </p>
-<p>Tasks among others: 
-<ul><li>Product definition</li>
-<li>Define APIs with the backend team</li>
-<li>Build a team for both iOS and Android apps</li>
-<li>Create the iOS app from scratch</li>
-<li>Support the Android developers in their work</li></ul>"
-    key_technologies:
-      - "Swift"
-      - "Cocoa Touch"
-
   - position_title: "iOS Development Teacher"
     company: "Université Pierre et Marie Curie"
     company_url: "http://www.upmc.fr"
@@ -30,6 +13,23 @@ work:
     key_technologies:
       - "Swift"
       - "Objective-C"
+      - "Cocoa Touch"
+
+  - position_title: "Mobile lead"
+    company: "Brut."
+    company_url: "http://www.brut.media"
+    location: "Paris, France"
+    start_date: "2018-06-11 09:00:00"
+    end_date: "2020-01-17 09:00:00"
+    description: "<p>First tech employee at Brut, I was in charge of the mobile apps.</p>
+<p>Tasks among others: 
+<ul><li>Product definition</li>
+<li>Define APIs with the backend team</li>
+<li>Build a team for both iOS and Android apps</li>
+<li>Create the iOS app from scratch</li>
+<li>Support the Android developers in their work</li></ul>"
+    key_technologies:
+      - "Swift"
       - "Cocoa Touch"
 
   - position_title: "Mobile team lead"
