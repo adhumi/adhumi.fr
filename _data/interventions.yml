@@ -1,4 +1,34 @@
 - cursus: "Licence 3 DANT"
+  year: "2019-2020"
+  school: "Sorbonne Université"
+  school-logo: "logo-sorbonne.png"
+  name: "Nouvelles technologies du web (LI385)"
+  githubProjectURL: "https://github.com/adhumi/UPMC-LI385"
+  abstract: "Introduction à la programmation iOS avec Swift."
+  identifier: dant_2020
+  wip: true
+
+  sections:
+    - name: "Cours"
+      octicon: "octicon-mortar-board"
+      content:
+        - name: "1. Introduction to Swift, part 1"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours1-20200304.pdf"
+    - name: "Travaux Pratiques"
+      octicon: "octicon-microscope"
+      content:
+        - name: "TP1"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/TP1.pdf"
+        - name: "TP1 – SpaceAdventure.zip"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/SpaceAdventure.zip"
+          
+  external_resources:
+    - title: "Télécharger Xcode 10.3"
+      note: "Xcode 10.3 est la version installée sur les machines de la salle 409 et recommandée pour les TP et le projet"
+      url: "https://xcodereleases.com"
+      octicon: "octicon-file-zip"
+
+- cursus: "Licence 3 DANT"
   year: "2018-2019"
   school: "Sorbonne Université"
   school-logo: "logo-sorbonne.png"
