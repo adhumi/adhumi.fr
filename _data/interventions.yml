@@ -23,6 +23,8 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/TP1.pdf"
         - name: "TP1 – SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/SpaceAdventure.zip"
+        - name: "TP2"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP2/TP2.pdf"
           
   external_resources:
     - title: "Télécharger Xcode 10.3"
