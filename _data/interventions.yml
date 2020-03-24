@@ -14,6 +14,8 @@
       content:
         - name: "1. Introduction to Swift, part 1"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours1-20200304.pdf"
+        - name: "1. Introduction to Swift, part 2"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours2-20200325.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
@@ -24,7 +26,7 @@
           
   external_resources:
     - title: "Télécharger Xcode 10.3"
-      note: "Xcode 10.3 est la version installée sur les machines de la salle 409 et recommandée pour les TP et le projet"
+      note: "Xcode 10.3 est la version installée sur les machines de la salle 409 et recommandée pour les TP et le projet. ⚠️ Les version plus récentes de Xcode ne sont pas nécéssairement compatibles avec le code vu en cours ou fourni pour les TP"
       url: "https://xcodereleases.com"
       octicon: "octicon-file-zip"
 
