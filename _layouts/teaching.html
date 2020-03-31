@@ -45,7 +45,10 @@ layout: default
               <ul class="intervention-documents">
                 {% for external_resource in intervention.external_resources %}
                   {% if external_resource.url %}<a href="{{ external_resource.url }}">{% endif %}
-                    <li>{{ external_resource.title }}{% if external_resource.note %} <em>({{ external_resource.note }})</em>{% endif %}</li>
+                    <li>
+						<b>{{ external_resource.title }}</b>
+						{% if external_resource.note %}<br/>{{ external_resource.note }}{% endif %}
+					</li>
                   {% if external_resource.url %}</a>{% endif %}
                 {% endfor %}
               </ul>

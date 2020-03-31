@@ -14,8 +14,10 @@
       content:
         - name: "1. Introduction to Swift, part 1"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours1-20200304.pdf"
-        - name: "1. Introduction to Swift, part 2"
+        - name: "2. Introduction to Swift, part 2"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours2-20200325.pdf"
+        - name: "3. Introduction to Swift, part 3"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Cours/Cours3-20200401.pdf"
     - name: "Travaux Pratiques"
       octicon: "octicon-microscope"
       content:
@@ -23,14 +25,25 @@
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/TP1.pdf"
         - name: "TP1 – SpaceAdventure.zip"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP1/SpaceAdventure.zip"
-        - name: "TP2"
-          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP2/TP2.pdf"
+        - name: "TP2, part 1"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP2.1/TP2.1.pdf"
+        - name: "TP2, part 2"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/TP/TP2.2/TP2.2.pdf"
+    - name: "Projet"
+      octicon: "octicon-gist"
+      content:
+        - name: "Première partie"
+          link: "https://github.com/adhumi/UPMC-LI385/raw/master/2019-2020/Projet/project-part1.pdf"
           
   external_resources:
     - title: "Télécharger Xcode 10.3"
-      note: "Xcode 10.3 est la version installée sur les machines de la salle 409 et recommandée pour les TP et le projet. ⚠️ Les version plus récentes de Xcode ne sont pas nécéssairement compatibles avec le code vu en cours ou fourni pour les TP"
+      note: "Xcode 10.3 est la version installée sur les machines de la salle 409 et recommandée pour les TP et le projet. ⚠️ Les version plus récentes de Xcode ne sont pas nécéssairement compatibles avec le code vu en cours ou fourni pour les TP."
       url: "https://xcodereleases.com"
       octicon: "octicon-file-zip"
+    - title: "repl.it"
+      note: "Les TP et projets peuvent se faire depuis un simple navigateur web sur cette plateforme."
+      url: "https://repl.it/languages/swift"
+      octicon: "octicon-file-code"
 
 - cursus: "Licence 3 DANT"
   year: "2018-2019"
@@ -74,8 +87,6 @@
       content:
         - name: "Première partie"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Projet/project-part1.pdf"
-        - name: "Weather – Corrigé de la première partie"
-          link: "https://github.com/adhumi/Weather"
         - name: "Deuxième partie"
           link: "https://github.com/adhumi/UPMC-LI385/raw/master/2018-2019/Projet/project-part2.pdf"
 
