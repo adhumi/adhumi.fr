@@ -19,7 +19,7 @@ layout: default
   				<small>Since {{ work.start_date | date: "%B %Y"}} – {{ work.location }}</small>
   				{% endif %}
   				{{ work.description }}
-  				<p>Technologies: <em>{{ work.key_technologies | array_to_sentence_string }}.</em></p>
+  				<p>Technologies: <em>{{ work.key_technologies | map: 'to_liquid' | array_to_sentence_string }}.</em></p>
   			</article>
   			{% endfor %}
       </div>
@@ -58,7 +58,7 @@ layout: default
   				<small>Graduated in {{ education.end_date | date: "%B %Y"}} – {{ education.location }}</small>
   				{{ education.description }}
 
-  				<p>Followed topics: <em>{{ education.key_teachings | array_to_sentence_string }}.</em></p>
+  				<p>Followed topics: <em>{{ education.key_teachings | map: 'to_liquid' | array_to_sentence_string }}.</em></p>
   			</article>
   			{% endfor %}
       </div>

@@ -2,12 +2,25 @@ resume_subtitle: "iOS Developer"
 
 
 work:
+  - position_title: "Engineering Manager"
+    company: "Dashlane"
+    company_url: "http://www.dashlane.com"
+    location: "Paris, France"
+    start_date: "2020-02-24 09:00:00"
+    end_date: "2022-11-30 18:00:00"
+    description: "<ul><li>Managing up to six Apple developers, in a team of ten.</li>
+    <li>Development, maintenance, and optimisation of the CI/CD pipelines.</li>
+    <li>Development and maintenance of the iOS and macOS apps.</li></ul>"
+    key_technologies:
+      - "Swift"
+      - "SwiftUI"
+  
   - position_title: "iOS Development Teacher"
     company: "Université Pierre et Marie Curie"
     company_url: "http://www.upmc.fr"
     location: "Paris, France"
     start_date: "2015-02-01 09:00:00"
-    end_date:
+    end_date: "2020-06-01 09:00:00"
     description: "<p>Alongside my regular work, I teach iOS development to bachelor students following a professional course.</p>
 <p>The unit introduces mobile development on iOS with Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>"
     key_technologies:
