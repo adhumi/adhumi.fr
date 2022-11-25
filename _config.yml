@@ -8,7 +8,7 @@ permalink:        /:title
 # Setup
 title:            Adrien Humilière
 tagline:          'iOS & macOS developer'
-description:      '👋 Hi! I am an iOS and macOS developer and team lead from Paris, France.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+description:      '👋 Hi! I am an iOS/macOS developer and team lead from Paris, France.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
 url:              https://adhumi.fr
 baseurl:          '/'
 paginate:         5
@@ -27,7 +27,7 @@ github:
 exclude:          [vendor, readlist.md]
 
 # SEO
-seo-description:  'I am an iOS and macOS developer and team lead from Paris, France.'
+seo-description:  'I am an iOS/macOS developer and team lead from Paris, France.'
 seo-keywords:     'developer, objective-c, swift, apple, ios, edjing, captain train, brut'
 
 # Gems
