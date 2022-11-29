@@ -4,17 +4,29 @@ layout: default
 
 {% include header.html %}
 
+<div class="container d-print-none">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Contact me?</h5>
+          <p class="card-text">Please reach out on <a href="https://www.linkedin.com/in/adhumi/">LinkedIn</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container resume">
   <section>
-    <div class="row">
-      <div class="col-md-2 side">
-        <h1 class="text-muted">Work Experience</h1>
-        <p class="resume-section-emoji hidden-sm-down">👨🏻‍💻</p>
+    <div class="row experience">
+      <div class="col-md-3 side">
+        <h1>Work Experience</h1>
       </div>
       <div class="col main">
   			{% for work in site.data.resume.work %}
   			<article>
-  				<h2>{{ work.position_title }} @ <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
+  				<h2>{{ work.position_title }} <em>@</em> <a href="{{ work.company_url }}">{{ work.company }}</a></h2>
   				{% if work.end_date %}
   				<small>{{ work.start_date | date: "%B %Y"}} to {{ work.end_date | date: "%B %Y"}} – {{ work.location }}</small>
   				{% else %}
@@ -29,10 +41,9 @@ layout: default
   </section>
   
   <section>
-    <div class="row">
-      <div class="col-md-2 side">
-        <h1 class="text-muted">Skills</h1>
-        <p class="resume-section-emoji hidden-sm-down">🛠</p>
+    <div class="row skills">
+      <div class="col-md-3 side">
+        <h1>Skills</h1>
       </div>
       <div class="col main">
   			{% for section in site.data.resume.skills %}
@@ -48,10 +59,9 @@ layout: default
   </section>
 
   <section>  
-    <div class="row">
-      <div class="col-md-2 side">
-        <h1 class="text-muted">Education</h1>
-        <p class="resume-section-emoji hidden-sm-down">🎓</p>
+    <div class="row education">
+      <div class="col-md-3 side">
+        <h1>Education</h1>
       </div>
       <div class="col main">
   			{% for education in site.data.resume.education %}
@@ -68,10 +78,9 @@ layout: default
   </section>
   
   <section>
-    <div class="row">
-      <div class="col-md-2 side">
-        <h1 class="text-muted">Hobbies</h1>
-        <p class="resume-section-emoji hidden-sm-down">🏃🏻</p>
+    <div class="row hobbies">
+      <div class="col-md-3 side">
+        <h1>Hobbies</h1>
       </div>
       <div class="col main">
   			{% for hobbie in site.data.resume.hobbies %}

@@ -2,8 +2,13 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
-.navbar-brand {
-  size: 1.4em;
+header h1 {
+  font-size: 2.5em;
+  margin: 1em 0 2em 0;
+}
+
+header h1 a {
+  color: #5757D5;
 }
 
 a {
@@ -277,7 +282,7 @@ article.post .content table tr td {
 /* Category */
 
 header.category {
-  margin: 6em 0 6em 0;
+  margin: 0;
 }
 
 .talks-abstracts img {
@@ -364,8 +369,46 @@ h1.display-4 {
   margin-bottom: 0;
 }
 
-.resume .main {
-  border-left: 1px solid #eee;
+.resume .side h1 {
+  font-weight: 550;
+}
+
+@media (max-width:992px) {
+  .resume .side h1 {
+    font-size: 1.8em;
+  }
+}
+
+.resume .experience .main {
+  border-left: 3px solid #AF52DE;
+}
+
+.resume .experience .side h1 {
+  color: #AF52DE
+}
+
+.resume .skills .main {
+  border-left: 3px solid #32C759;
+}
+
+.resume .skills .side h1 {
+  color: #32C759
+}
+
+.resume .education .main {
+  border-left: 3px solid #007AFF;
+}
+
+.resume .education .side h1 {
+  color: #007AFF
+}
+
+.resume .hobbies .main {
+  border-left: 3px solid #FF9602;
+}
+
+.resume .hobbies .side h1 {
+  color: #FF9602
 }
 
 .resume .main article {
@@ -377,17 +420,10 @@ h1.display-4 {
 }
 
 .resume .main h2 {
-  font-size: 1.3em;
-  font-weight: 500;
+  font-size: 1.5em;
+  font-weight: 550;
 }
 
-.resume .side h1 {
-  font-size: 1em;
-  font-weight: 600;
-  margin-bottom: 1em;
-}
-
-.resume .side .resume-section-emoji {
-  text-align: center;
-  font-size: 3em;
+.resume .main h2 em, .resume .main h2 a {
+  color: gray;
 }
