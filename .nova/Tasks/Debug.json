@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "make debug"
+    }
+  },
+  "identifier" : "E95D990A-2FA0-47DC-A2F0-E6AE887D8F4B"
+}

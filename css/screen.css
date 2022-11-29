@@ -1,3 +1,7 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
 .navbar-brand {
   size: 1.4em;
 }
@@ -13,7 +17,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -26,11 +30,20 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.3em;
+  font-weight: 550;
+}
+
 /* Header */
 
 header nav a:hover {
   border-bottom: 0px;
   text-decoration: none;
+}
+
+header .navbar-brand {
+  font-weight: 650;
 }
 
 header .navbar-nav a {
@@ -59,12 +72,82 @@ footer.emoji {
   margin: 4em 0 4em 0;
 }
 
-.posts-abstracts article, .talks-abstracts article {
-  margin: 0 0 2em 0;
+.site-introduction .emoji {
+  font-size: 4em;
+  margin-bottom: 0;
 }
 
-.posts-abstracts h1, .talks-abstracts h1 {
-  font-weight: normal;
+.site-introduction .lead {
+  font-size: 2.3em;
+  font-weight: 550;
+  line-height: 1.2em;
+}
+
+.site-introduction .lead a {
+  font-style: normal;
+  color: #5757D5;
+}
+
+.home-section {
+  margin-bottom: 4em;
+}
+
+.home-section h1 {
+  margin: 0;
+}
+
+.see-all {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+  text-align: right;
+}
+
+@media (max-width:800px){
+  .see-all {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0.2em 0 0.5em 0;
+    text-align: left;
+  }
+}
+
+.home-section article {
+  margin: 1.5em 0 0 0;
+}
+
+.home-section h3.post-title a {
+  margin: 0.3em 0 0.3em 0;
+  display: inline-block;
+}
+
+.projects .card {
+  margin-bottom: 1em;
+}
+
+.projects-orange {
+  color: #FF9602;
+}
+
+.talks-blue {
+  color: #007AFF;
+}
+
+.sport-green {
+  color: #32C759;
+}
+
+.cooking-purple {
+  color: #AF52DE;
+}
+
+.posts-pink {
+  color: #FE2C55;
+}
+
+.home-section .disclaimer {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* Post */
@@ -198,7 +281,7 @@ header.category {
 }
 
 .talks-abstracts img {
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 
 .recipes-abstracts article {
@@ -259,6 +342,12 @@ header.category {
 .recipe .steps ul em {
   font-style: normal;
   font-weight: 600;
+}
+
+/* Talks */
+
+h1.display-4 {
+  font-weight: 550;
 }
 
 /* Resume */

@@ -6,35 +6,173 @@ title: Home
 <div class="site-introduction">
   <div class="container">
     <div class="row">
-      <div class="col-3 hidden-sm-down">
-        <img src="{{ site.baseurl }}assets/avatar.png" alt="{{ site.title }}" class="rounded img-fluid" />
-      </div>
       <div class="col">
-        <p class="lead">
-          {{ site.description }}
+        <p class="emoji">
+          👋 
         </p>
+        <p class="lead">
+          I'm <a href="/resume" title="Click to see my resume">Adrien Humilière</a>,<br /> 
+          an iOS/macOS developer and team lead from Paris, France.
+        </p>
+      </div>
+      <div class="col-6 d-none d-md-block">
+        <img src="{{ site.baseurl }}assets/avatar.png" alt="{{ site.title }}" class="rounded img-fluid pull-right" />
       </div>
     </div>
   </div>
 </div>
 
-<div class="posts-abstracts">
-  {% for post in site.posts %}
-  {% if post.section contains 'blog' %}
-  <article>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
-          {{ post.excerpt }}
-
-          <p><small class="text-muted">Published on {{ post.date | date_to_string }}</small></p>
-          <p><a href="{{ post.url }}" class="btn btn-outline-info btn-sm">Read more →</a></p>
+<div class="home-section projects">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <h1 class="projects-orange">I'm a developer</h1>
+      </div>
+      <div class="col-12 col-md">
+        <p class="see-all"><a href="https://github.com/adhumi">See my GitHub →</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col disclaimer">
+        The code I usually write at work isn't publicly available. Below is a selection of my toy projects… not always to be taken seriously!
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/adhumi/Chapelle">Chapelle ❄️</a></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text"><small class="text-muted">Swift · Swift UI · iOS</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/adhumi/Attestations">Attestations 📝</a></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text"><small class="text-muted">Swift · Swift UI · iOS</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/adhumi/tchou-tchou">Tchou-tchou 🚂</a></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text"><small class="text-muted">Swift · AppKit · macOS</small></p>
+          </div>
         </div>
       </div>
     </div>
-  </article>
-  {% endif %}
-  {% endfor %}
+  </div>
+</div>
+
+
+<div class="home-section talks">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <h1 class="talks-blue">I talk about development</h1>
+      </div>
+      <div class="col-12 col-md">
+        <p class="see-all"><a href="/talks">All my talks →</a></p>
+      </div>
+    </div>
+    <div class="row">
+      {% assign i = 0 %}
+      {% for post in site.posts %}
+      {% if post.section contains 'talks' %}
+      {% if  i < 3 %}
+      {% assign i = i | plus:1 %}
+      <div class="col-12 col-sm">
+        <article>
+          <a href="{{ post.url }}"><img src="{{ post.thumbnail_url }}" alt="{{ post.title }}" class="rounded float-right img-fluid" /></a>
+          <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p><a href="{{ post.url }}" class="btn btn-outline-info btn-sm">See more →</a></p>
+        </article>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 
+<div class="home-section sports">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <h1 class="sport-green">I do sports</h1>
+      </div>
+      <div class="col-12 col-md">
+        <p class="see-all"><a href="https://www.strava.com/athletes/7828349">My Strava →</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col disclaimer">
+        Les trois dernières activités Strava publiques (hors commute) 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="home-section recipes">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <h1 class="cooking-purple">I love to cook & bake</h1>
+      </div>
+      <div class="col-12 col-md">
+        <p class="see-all"><a href="/recipes">All my recipes →</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col disclaimer">
+        Trois recettes random parmis les favorites sur Mela 
+      </div>
+    </div>
+  </div>
+</div> 
+-->
+
+
+
+<div class="home-section posts">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <h1 class="posts-pink">… and from time to time, I write stuffs!</h1>
+      </div>
+      <div class="col-12 col-md">
+        <p class="see-all"><a href="#">All my posts →</a></p>
+      </div>
+    </div>
+    <div class="row">
+      {% assign i = 0 %}
+      {% for post in site.posts %}
+      {% if post.section contains 'blog' %}
+      {% if  i < 3 %}
+      {% assign i = i | plus:1 %}
+      <div class="col-12 col-sm">
+        <article>
+          <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+          {{ post.excerpt }}
+
+          <p><a href="{{ post.url }}" class="btn btn-outline-info btn-sm">Read more →</a></p>
+        </article>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>

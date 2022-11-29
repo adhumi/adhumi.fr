@@ -6,11 +6,13 @@ date:  		2014-05-22 16:57:51
 excerpt_separator:  "<!--more-->"
 ---
 
-Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
-
-However, there are guidelines that reference best practices, including about formatting that is missing in Apple's official documentation. In this post, I will highlight topics that sounds particularly pertinents to me. It can be considered as *my* guidelines for Objective-C code formatting and will be formalized soon in a Github repository.
+Where Java has its [*Code Conventions for the Java Programming Language*](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), Python its [*PEP 8*](http://legacy.python.org/dev/peps/pep-0008/) or C# its [*Coding Conventions*](http://msdn.microsoft.com/en-us/library/ff926074.aspx), Objective-C doesn't have any official guidelines for formatting sourcecodes. 
 
 <!--more-->
+
+The official [Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) exists, but doesn't cover code formatting or recent features of Objective-C like object literals.
+
+However, there are guidelines that reference best practices, including about formatting that is missing in Apple's official documentation. In this post, I will highlight topics that sounds particularly pertinents to me. It can be considered as *my* guidelines for Objective-C code formatting and will be formalized soon in a Github repository.
 
 # [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide)
 The iOS development team of *The New York Times* formalized its coding conventions in a Github repo. It is a great document, that covers a lot of syntax topics. I globally agree with this coding style. Here is a list of my favorite tips.
