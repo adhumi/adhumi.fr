@@ -8,12 +8,18 @@ work:
     location: "Paris, France"
     start_date: "2020-02-24 09:00:00"
     end_date: "2022-11-30 18:00:00"
-    description: "<ul><li>Managing up to six Apple developers, in a team of ten.</li>
+    description: "<p>Hands-on manager, I was managing the team in charge of the iOS and macOS apps, as well as contributing to the project integrated in development teams.</p>
+    <ul><li>Managing up to six Apple developers, in a team of ten.</li>
     <li>Development, maintenance, and optimisation of the CI/CD pipelines.</li>
     <li>Development and maintenance of the iOS and macOS apps.</li></ul>"
     key_technologies:
-      - "Swift"
-      - "SwiftUI"
+      - Swift
+      - SwiftUI
+      - iOS
+      - macOS
+      - Gitlab CI/CD
+      - Fastlane
+      - Ruby
   
   - position_title: "iOS Development Teacher"
     company: "Université Pierre et Marie Curie"
@@ -24,9 +30,9 @@ work:
     description: "<p>Alongside my regular work, I teach iOS development to bachelor students following a professional course.</p>
 <p>The unit introduces mobile development on iOS with Swift, in the context of recent development technologie. It includes a server-side (web development, API conception) and a client-side (iOS app) section.</p>"
     key_technologies:
-      - "Swift"
-      - "Objective-C"
-      - "Cocoa Touch"
+      - Swift
+      - Objective-C
+      - iOS
 
   - position_title: "Mobile lead"
     company: "Brut."
@@ -42,8 +48,10 @@ work:
 <li>Create the iOS app from scratch</li>
 <li>Support the Android developers in their work</li></ul>"
     key_technologies:
-      - "Swift"
-      - "Cocoa Touch"
+      - Swift
+      - UIKit
+      - iOS
+      - tvOS
 
   - position_title: "Mobile team lead"
     company: "Trainline (formerly Captain Train)"
@@ -53,9 +61,10 @@ work:
     end_date: "2018-06-08 09:00:00"
     description: "<p>Development and maintenance of the iOS apps of Trainline Europe (formerly Captain Train) and Trainline UK.</p><p>Leading the mobile team of Paris office (up to 8 peoples including iOS, Android and QA engineers).</p><p>Leading an international squad across Paris and London offices.</p>"
     key_technologies:
-      - "Swift"
-      - "Objective-C"
-      - "Cocoa Touch"
+      - Swift
+      - Objective-C
+      - iOS
+      - watchOS
 
   - position_title: "iOS Engineer"
     company: "Trainline (formerly Captain Train)"
@@ -65,9 +74,10 @@ work:
     end_date: "2017-01-31 09:00:00"
     description: "<p>Development and maintenance of the iOS app of Trainline Europe (formerly Captain Train).</p>"
     key_technologies:
-      - "Objective-C"
-      - "Swift"
-      - "Cocoa Touch"
+      - Objective-C
+      - Swift
+      - iOS
+      - watchOS
 
   - position_title: "iOS Developer"
     company: "MWM"
@@ -81,11 +91,12 @@ work:
 <li>Developing and maintaining the other musical applications of DJiT.</li>
 <li>Researching for unreleased projects, in various fields of programming.</li></ul>"
     key_technologies:
-      - "Swift"
-      - "Objective-C"
-      - "Cocoa Touch"
-      - "C"
-      - "Cocoa"
+      - Swift
+      - Objective-C
+      - C
+      - UIKit
+      - iOS
+      - watchOS
 
   - position_title: "Web Developer"
     company: "Fantasy.fr"
@@ -104,23 +115,16 @@ work:
 
 
 skills:
-  - section_name: "iOS & Mac Development"
+  - section_name: "Development"
     list:
-      - name: "Objective-C"
-        description: "Strong knowledge, 7+ years of active practice"
-      - name: "Swift"
-        description: "Strong knowledge, practicing since it’s release in 2014"
-      - name: "C"
-        description: "Basic knowledge"
-      - name: "Cocoa Touch"
-        description: "Strong knowledge, 7+ years of active practice"
-      - name: "Cocoa"
-        description: "Basic knowledge"
-
-  - section_name: "Web Development"
-    list:
-      - name: "Basic knowledge in a LAMP environnement"
-        description: "PHP, HTML, CSS, JS"
+      - name: "Swift, Objective-C"
+        description: "Used to work with both languages and to leverage their specificities."
+      - name: "SwiftUI, UIKit, AppKit"
+        description: "During my years at Dashlane I mostly worked with SwiftUI, but kept using UIKit for some personal projects."
+      - name: "iOS, iPadOS macOS, watchOS, tvOS"
+        description: "iOS is my main focus, but I'm used to develop on all Apple platforms."
+      - name: "Continuous Integration"
+        description: "Extensive knowledge of GitLab CI/CD and scripting/testing tools used in the Apple world."
 
   - section_name: "Languages"
     list:
@@ -130,6 +134,8 @@ skills:
         description: "Professional working proficiency"
       - name: "German"
         description: "Elementary proficiency"
+      - name: "Quenya"
+        description: "Well, it was more a hobby!"
 
 
 education:
@@ -150,9 +156,7 @@ education:
 
 
 hobbies:
-  - title:
-    description: "Programming for several ongoing projects."
-  - title:
-    description: "Co-founder and host of the <a href=\"http://poligeek.fr\">audio webshow Poligeek</a>, speaking about politics and high-tech since 2010. Poligeek reached a regular audience of 10 000 downloads per issue."
-  - title: "Sports"
-    description: "Running (participated in trail running as well as road running races, up to 80 km).<br/>Cross-country skiing for 28 years (participated in popular races, including La Transjurassienne, 76 km, 4 times)."
+  - "[Ultra-]endurance sports enthusiast. I participated in multiple trail-runnning races since 2015 up to 110 km, and also practices cycling and cross-country skiing."
+  - "Coordinator of <a href=\"https://www.larustinedenanterre.fr\">La Rustine de Nanterre</a>, a local association/non-profit promoting cycling as a transportation mean."
+  - "Co-founder and host of the audio webshow <a href=\"https://www.poligeek.fr\">Poligeek</a>, talking links between politics and high-tech between 2010 and 2016. Poligeek reached a regular audience of 10 000 downloads per issue."
+  - "Regular contributor to <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a>."

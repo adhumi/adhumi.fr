@@ -84,8 +84,7 @@ layout: default
       </div>
       <div class="col main">
   			{% for hobbie in site.data.resume.hobbies %}
-  				{% if hobbie.title %}<h2>{{ hobbie.title }}</h2>{% endif %}
-  				<p>{{ hobbie.description }}</p>
+  				<p>{{ hobbie }}</p>
   			{% endfor %}
       </div>
     </div>
