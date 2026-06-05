@@ -7,7 +7,7 @@ context:            FrenchKit
 context_url:        https://www.frenchkit.fr
 document_url:       https://github.com/adhumi/talks/raw/master/2017-09-ios-notifications/frenchkit-ios-user-notifications.pdf
 thumbnail_url:      /talks/assets/frenchkit-ios-user-notifications.jpg
-embed_slides_code:  <script async class="speakerdeck-embed" data-id="823224296ad744fb8312fbd90477373e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+embed_slides_code:  <script async class="speakerdeck-embed" data-id="823224296ad744fb8312fbd90477373e" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 embed_video_code:   
 ---
 
