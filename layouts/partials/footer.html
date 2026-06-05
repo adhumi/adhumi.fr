@@ -1,0 +1,16 @@
+<footer class="emoji">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>{{ .Site.Params.emoji }}</p>
+        <p>
+          <small>{{ .Site.Params.credits | safeHTML }}</small><br/>
+          <small>Last built {{ now.Format "January 2 at 15:04" }}</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/jquery-3.2.1.slim.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
