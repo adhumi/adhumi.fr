@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.140.2
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Hugo (extended)
+        run: |
+          wget -O /tmp/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i /tmp/hugo.deb
+          hugo version
+
+      - name: Build site
+        run: hugo --gc --minify
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install html-proofer
+        run: gem install html-proofer -v 5.0.2
+
+      - name: Validate HTML & internal links
+        run: htmlproofer ./public --disable-external --no-enforce-https --assume-extension '.html'

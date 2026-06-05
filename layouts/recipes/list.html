@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<header class="category">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4">Mes recettes 🍴</h1>
+        <p class="lead">Quelques recettes que j'aime préparer et manger (en français dans le texte).</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="recipes-abstracts">
+      {{ range .Pages.ByTitle }}
+      {{ $url := .RelPermalink | strings.TrimSuffix ".html" }}
+      {{ $img := "/recipes/assets/default.jpg" }}
+      {{ with .Params.illustration }}{{ with .url }}{{ $img = . }}{{ end }}{{ end }}
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="{{ $url }}"><img src="{{ $img }}" alt="{{ .Title }}" class="rounded float-right img-fluid" /></a>
+            </div>
+            <div class="col-sm-8">
+              <span class="align-middle">
+                <h1 class="post-title"><a href="{{ $url }}">{{ .Title }}</a></h1>
+                <p><small class="text-muted">{{ .Date.Format "02 Jan 2006" }}</small></p>
+                <p><a href="{{ $url }}" class="btn btn-outline-info btn-sm">Om nom nom →</a></p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

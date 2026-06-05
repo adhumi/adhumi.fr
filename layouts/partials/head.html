@@ -1,0 +1,26 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  {{ if .IsHome }}
+  <title>{{ .Site.Title }} &middot; {{ .Site.Params.tagline }}</title>
+  <meta name="description" content="{{ .Site.Params.seo_description }}" />
+  {{ else }}
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Summary | plainify | truncate 155 }}" />
+  {{ end }}
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/fontawesome/css/font-awesome.min.css">
+
+  {{ with .OutputFormats.Get "atom" }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+  {{ end }}
+</head>

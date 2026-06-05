@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<article class="post recipe">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4"><a href="/" class="back" onclick="window.history.go(-1); return false;"></a>{{ .Title }}</h1>
+          <p><small class="text-muted">Published on {{ .Date.Format "02 Jan 2006" }}</small></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container content">
+    <div class="row">
+      <div class="col">
+        {{ with .Params.illustration }}
+        {{ with .url }}
+        <div class="illustration">
+            <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid rounded mx-auto d-block" />
+            {{ with $.Params.illustration.credits }}<p class="credits">{{ . | safeHTML }}</p>{{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 offset-md-4 steps">
+        <ul>
+          {{ range .Params.steps }}
+            <li><em>{{ .title | markdownify | replaceRE "</?p>" "" | safeHTML }}</em> {{ .duration | markdownify | replaceRE "</?p>" "" | safeHTML }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 ingredients">
+        <h3>Ingrédients{{ with .Params.quantity }}<br/>({{ . }}){{ end }}</h3>
+        <ul>
+          {{ range .Params.ingredients }}
+            <li>{{ . | markdownify | replaceRE "</?p>" "" | safeHTML }}</li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col-md-8">
+        {{ .Content }}
+
+        {{ with .Params.pairing_drinks }}
+        <p class="box">
+          Boisson conseillée : {{ . }}
+        </p>
+        {{ end }}
+
+        {{ with .Params.pairing_food }}
+        <p class="box">
+          En accompagnement : {{ . }}
+        </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}

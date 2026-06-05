@@ -1,0 +1,66 @@
+baseURL = "https://adhumi.fr/"
+languageCode = "en-us"
+title = "Adrien Humilière"
+
+# Reproduce Jekyll's `permalink: /:title` URL scheme.
+# Posts (blog, talks, recipes) are served at the site root as /<slug>.
+# uglyURLs makes Hugo emit `<slug>.html` (served at /<slug>, exactly like Jekyll),
+# instead of `<slug>/index.html` (which would be /<slug>/).
+uglyURLs = true
+
+# The Jekyll site had no taxonomies (categories/tags). Disable them so Hugo
+# doesn't create /categories/ and /tags/ URLs that didn't exist before.
+disableKinds = ["taxonomy", "term"]
+
+# Pagination kept for parity with Jekyll's `paginate: 5` (largely unused on this site).
+[pagination]
+  pagerSize = 5
+
+# Drop date prefixes from filenames -> the filename is the slug, mounted at root.
+[permalinks]
+  posts = "/:filename"
+  talks = "/:filename"
+  recipes = "/:filename"
+
+[params]
+  tagline = "iOS & macOS developer"
+  description = '👋 Hi! I am an iOS/macOS developer and team lead from Paris, France.<br/>If you want to know more about me, please have a look at my <a href="/resume">resume</a> and <a href="http://github.com/adhumi">Github</a> or <a href="http://twitter.com/adhumi">Twitter</a> accounts.'
+  credits = "Crafted with <3 by adhumi"
+  emoji = "🏃‍♂️"
+  seo_description = "I am an iOS/macOS developer and team lead from Paris, France."
+  seo_keywords = "developer, objective-c, swift, apple, ios, edjing, captain train, brut"
+
+[author]
+  name = "Adrien Humilière"
+  url = "https://twitter.com/adhumi"
+
+[params.github]
+  repo = "https://github.com/adhumi/adhumi.fr"
+
+# Atom feed served at /atom.xml (matches the previous static atom.xml URL).
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+[outputFormats.atom]
+  mediaType = "application/atom+xml"
+  baseName = "atom"
+  isPlainText = true
+  rel = "alternate"
+
+[outputs]
+  # Home: HTML + the Atom feed at /atom.xml. Sections: HTML only (Jekyll had no
+  # per-section feeds), matching the previous site's output exactly.
+  home = ["HTML", "atom"]
+  section = ["HTML"]
+
+[markup]
+  [markup.goldmark.renderer]
+    # Jekyll/Kramdown rendered raw HTML in Markdown; keep that behaviour.
+    unsafe = true
+  [markup.highlight]
+    # Use CSS classes (compatible with the existing css/syntax.css from Rouge)
+    # instead of inline styles, and wrap in <div class="highlight"> like Jekyll did.
+    noClasses = false
+    lineNos = false
+    codeFences = true
+    wrapperClass = "highlight"

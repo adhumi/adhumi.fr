@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<article class="post blog">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4"><a href="/" class="back" onclick="window.history.go(-1); return false;"></a>{{ .Title }}</h1>
+          <p>Presented at <a href="{{ .Params.context_url }}">{{ .Params.context }}</a>, {{ .Date.Format "02 Jan 2006" }}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container content">
+    <div class="row">
+      <div class="col">
+        {{ .Content }}
+
+        <p><a href="{{ .Params.document_url }}" class="btn btn-outline-info">Download “{{ .Title }}”</a></p>
+
+        {{ .Params.embed_slides_code | safeHTML }}
+
+        {{ with .Params.embed_video_code }}
+        <h2>Vidéo</h2>
+        <p>{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}

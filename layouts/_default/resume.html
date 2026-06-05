@@ -1,0 +1,98 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<div class="container d-print-none">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Contact me?</h5>
+          <p class="card-text">Please reach out on <a href="https://www.linkedin.com/in/adhumi/">LinkedIn</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container resume">
+  <section>
+    <div class="row experience">
+      <div class="col-md-3 side">
+        <h1>Work Experience</h1>
+      </div>
+      <div class="col main">
+        {{ range .Site.Data.resume.work }}
+        <article>
+          <h2>{{ .position_title }} <em>@</em> <a href="{{ .company_url }}">{{ .company }}</a></h2>
+          {{ if .end_date }}
+          <small>{{ (time.AsTime .start_date).Format "January 2006" }} to {{ (time.AsTime .end_date).Format "January 2006" }} – {{ .location }}</small>
+          {{ else }}
+          <small>Since {{ (time.AsTime .start_date).Format "January 2006" }} – {{ .location }}</small>
+          {{ end }}
+          {{ .description | safeHTML }}
+          <p>Technologies: <em>{{ delimit .key_technologies ", " ", and " }}.</em></p>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row skills">
+      <div class="col-md-3 side">
+        <h1>Skills</h1>
+      </div>
+      <div class="col main">
+        {{ range .Site.Data.resume.skills }}
+        <h2>{{ .section_name }}</h2>
+        <ul>
+          {{ range .list }}
+          <li>{{ .name }}: <em>{{ .description }}</em></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row education">
+      <div class="col-md-3 side">
+        <h1>Education</h1>
+      </div>
+      <div class="col main">
+        {{ range .Site.Data.resume.education }}
+        <article>
+          <h2>{{ .curiculum }} @ <a href="{{ .university_url }}">{{ .university }}</a></h2>
+          <small>Graduated in {{ (time.AsTime .end_date).Format "January 2006" }} – {{ .location }}</small>
+          {{ .description | safeHTML }}
+
+          <p>Followed topics: <em>{{ delimit .key_teachings ", " ", and " }}.</em></p>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row hobbies">
+      <div class="col-md-3 side">
+        <h1>Hobbies</h1>
+      </div>
+      <div class="col main">
+        {{ range .Site.Data.resume.hobbies }}
+          <p>{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="container d-none d-print-block">
+  <div class="row">
+    <div class="col">
+      <p>This document was exported from <a href="/resume">adhumi.fr/resume</a>.</p>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>{{ .Site.Title }}</title>
+ <link href="{{ "atom.xml" | absURL }}" rel="self"/>
+ <link href="{{ .Site.BaseURL }}"/>
+ <updated>{{ now.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+ <id>{{ .Site.BaseURL }}</id>
+ <author>
+   <name>{{ .Site.Title }}</name>
+ </author>
+
+ {{ range (where .Site.RegularPages "Section" "in" (slice "posts" "talks" "recipes")) }}
+ {{ $url := .Permalink | strings.TrimSuffix ".html" }}
+ <entry>
+   <title>{{ .Title }}</title>
+   <link href="{{ $url }}"/>
+   <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+   <id>{{ $url }}</id>
+   <content type="html">{{ .Content | htmlEscape }}</content>
+ </entry>
+ {{ end }}
+
+</feed>

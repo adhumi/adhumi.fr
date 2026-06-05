@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<article class="post blog">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4"><a href="/" class="back" onclick="window.history.go(-1); return false;"></a>{{ .Title }}</h1>
+          <p><small class="text-muted">Published on {{ .Date.Format "02 Jan 2006" }} by {{ .Site.Title }}</small></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container content">
+    <div class="row">
+      <div class="col">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
